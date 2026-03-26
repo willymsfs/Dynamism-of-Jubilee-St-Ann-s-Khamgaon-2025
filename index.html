@@ -1,2556 +1,433 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Dynamism of Jubilee: A Theological Exploration of the Jubilee of Pilgrims of Hope</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-        body {
-            font-family: 'Georgia', serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #333;
-        }
-        .slide {
-            background: white;
-            margin: 30px auto;
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            max-width: 1000px;
-            min-height: 600px;
-            page-break-after: always;
-        }
-        .slide h1 {
-            color: #2c3e50;
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 10px;
-            margin-bottom: 30px;
-            font-size: 2.2em;
-        }
-        .slide h2 {
-            color: #34495e;
-            margin-top: 30px;
-            margin-bottom: 20px;
-            font-size: 1.8em;
-        }
-        .slide h3 {
-            color: #7f8c8d;
-            margin-top: 25px;
-            margin-bottom: 15px;
-            font-size: 1.4em;
-        }
-        .chart-container {
-            width: 100%;
-            height: 400px;
-            margin: 20px 0;
-            position: relative;
-        }
-        .timeline {
-            position: relative;
-            margin: 30px 0;
-        }
-        .timeline-item {
-            background: #ecf0f1;
-            padding: 15px;
-            margin: 10px 0;
-            border-left: 4px solid #3498db;
-            border-radius: 5px;
-        }
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin: 20px 0;
-        }
-        .stat-card {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-            border: 2px solid #e9ecef;
-        }
-        .stat-number {
-            font-size: 2.5em;
-            font-weight: bold;
-            color: #3498db;
-        }
-        .stat-label {
-            color: #7f8c8d;
-            font-size: 0.9em;
-            margin-top: 5px;
-        }
-        .quote-box {
-            background: #f39c12;
-            color: white;
-            padding: 20px;
-            border-radius: 10px;
-            margin: 20px 0;
-            font-style: italic;
-            position: relative;
-        }
-        .quote-box::before {
-            content: '"';
-            font-size: 4em;
-            position: absolute;
-            top: -10px;
-            left: 10px;
-            opacity: 0.3;
-        }
-        .biblical-reference {
-            background: #2ecc71;
-            color: white;
-            padding: 15px;
-            border-radius: 8px;
-            margin: 15px 0;
-        }
-        .modern-application {
-            background: #e74c3c;
-            color: white;
-            padding: 15px;
-            border-radius: 8px;
-            margin: 15px 0;
-        }
-        .slide-number {
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            background: #3498db;
-            color: white;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-size: 0.9em;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 12px;
-            text-align: left;
-        }
-        th {
-            background: #3498db;
-            color: white;
-        }
-        .four-rs, .four-fs {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin: 20px 0;
-        }
-        .principle-card {
-            background: #9b59b6;
-            color: white;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-        }
-        .principle-card h4 {
-            margin: 0 0 10px 0;
-            font-size: 1.3em;
-        }
-    </style>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>The Dynamism of Jubilee — Priests & Religious, India 2025</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --saffron:#e07b00;--saffron2:#f59e0b;--saffron3:#fcd34d;--saffronp:#fffbeb;
+  --crimson:#8b1515;--crimson2:#b91c1c;--crimsonp:#fff5f5;
+  --forest:#1a4a2e;--forest2:#16653e;--forestp:#f0faf4;
+  --indigo:#1e2d5a;--indigo2:#2d4080;--indigop:#eef2ff;
+  --gold:#b8860b;--gold2:#c9a227;--goldb:#7c5c00;
+  --ivory:#fdfaf4;--cream:#f5efe0;--cream2:#ede3cc;--cream3:#ddd0b5;
+  --ink:#1c1208;--ink2:#3d2b0e;--ink3:#6b4f20;--slate:#7a6a50;
+  --white:#ffffff;
+  --fh:'Cormorant Garamond',Georgia,serif;
+  --fb:'Crimson Pro',Georgia,serif;
+  --fu:'DM Sans',sans-serif;
+  --sh:0 4px 28px rgba(28,18,8,.12);
+  --sh2:0 8px 48px rgba(28,18,8,.2);
+  --r:14px;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--fb);font-size:16px;background:var(--cream);color:var(--ink);line-height:1.78;-webkit-font-smoothing:antialiased}
+
+/* ===== NAV ===== */
+#nav{position:sticky;top:0;z-index:300;background:rgba(26,18,8,.96);backdrop-filter:blur(16px);border-bottom:2px solid rgba(224,123,0,.35);padding:.6rem 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem}
+.brand{font-family:var(--fh);font-size:1rem;font-weight:700;color:var(--saffron3);cursor:pointer;letter-spacing:.03em}
+.brand small{display:block;font-size:.6rem;font-weight:400;color:rgba(252,211,77,.5);font-family:var(--fu);letter-spacing:.1em;text-transform:uppercase}
+.nbts{display:flex;gap:.4rem;flex-wrap:wrap}
+.nb{font-family:var(--fu);font-size:.65rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.28rem .75rem;border-radius:5px;cursor:pointer;transition:all .25s;border:none}
+.no{background:transparent;border:1px solid rgba(252,211,77,.35);color:var(--saffron3)}.no:hover,.no.act{background:var(--saffron2);color:var(--ink);border-color:var(--saffron2)}
+
+/* ===== SCREENS ===== */
+.screen{display:none}
+.screen.active{display:block;animation:fadeUp .38s ease both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+
+/* ===== HERO ===== */
+.hero{min-height:92vh;background:linear-gradient(160deg,var(--indigo) 0%,#1a2a10 50%,#2c1200 100%);display:flex;flex-direction:column;justify-content:center;padding:5rem 4rem 4rem;position:relative;overflow:hidden;color:#fff}
+.hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")}
+.hero::after{content:'✝';position:absolute;right:4rem;bottom:2rem;font-size:18rem;opacity:.04;line-height:1;font-family:serif;pointer-events:none}
+.h-eyebrow{font-family:var(--fu);font-size:.65rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--saffron3);border:1px solid rgba(252,211,77,.35);background:rgba(252,211,77,.1);display:inline-block;padding:.25rem .9rem;border-radius:3px;margin-bottom:1.6rem}
+.h-title{font-family:var(--fh);font-size:clamp(2rem,6vw,4.5rem);font-weight:700;line-height:1.06;margin-bottom:.6rem}
+.h-title em{font-style:italic;color:var(--saffron3)}
+.h-subtitle{font-family:var(--fb);font-style:italic;font-size:1.18rem;color:rgba(255,255,255,.75);margin-bottom:.8rem}
+.h-rule{width:56px;height:2px;background:linear-gradient(90deg,var(--saffron),var(--saffron3));border-radius:2px;margin:1.3rem 0}
+.h-meta{font-family:var(--fu);font-size:.76rem;color:rgba(255,255,255,.5);margin-bottom:1.8rem;display:flex;flex-wrap:wrap;gap:.3rem 2rem;line-height:2}
+.h-meta strong{color:var(--saffron3)}
+.h-verse{font-family:var(--fh);font-style:italic;font-size:1.1rem;color:rgba(255,255,255,.92);border-left:3px solid var(--saffron);padding-left:1.2rem;max-width:680px;margin-bottom:2.5rem;line-height:1.8}
+.h-verse cite{display:block;font-size:.74rem;font-style:normal;color:var(--saffron3);margin-top:.4rem;font-family:var(--fu)}
+.hbtns{display:flex;gap:.8rem;flex-wrap:wrap}
+.hbp{font-family:var(--fu);font-weight:700;font-size:.85rem;letter-spacing:.05em;text-transform:uppercase;padding:.75rem 2rem;border-radius:8px;background:linear-gradient(135deg,var(--saffron),var(--gold2));color:#fff;border:none;cursor:pointer;transition:all .28s;box-shadow:0 4px 18px rgba(224,123,0,.4)}
+.hbp:hover{transform:translateY(-2px);box-shadow:0 6px 28px rgba(224,123,0,.55)}
+.hbs{font-family:var(--fu);font-weight:700;font-size:.82rem;letter-spacing:.05em;text-transform:uppercase;padding:.75rem 1.7rem;border-radius:8px;background:transparent;color:rgba(255,255,255,.82);border:1.5px solid rgba(255,255,255,.25);cursor:pointer;transition:all .28s}
+.hbs:hover{border-color:var(--saffron3);color:var(--saffron3)}
+
+/* ===== OVERVIEW ===== */
+#scr-ov{padding:3rem 2rem 5rem}
+.ov-head{max-width:1180px;margin:0 auto 2.2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;border-bottom:2px solid var(--cream3);padding-bottom:1.1rem}
+.ov-title{font-family:var(--fh);font-size:clamp(1.4rem,3vw,2rem);font-weight:700;color:var(--indigo)}
+.sgrid{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:1.3rem}
+.scard{background:var(--white);border-radius:var(--r);overflow:hidden;box-shadow:var(--sh);cursor:pointer;transition:all .28s;border:1px solid var(--cream3)}
+.scard:hover{transform:translateY(-4px);box-shadow:var(--sh2)}
+.sc-hd{padding:1.15rem 1.5rem 1rem;color:#fff;position:relative;overflow:hidden}
+.sc-hd::after{content:attr(data-n);position:absolute;right:-4px;top:-4px;font-family:var(--fh);font-size:5rem;font-weight:900;opacity:.1;line-height:1;pointer-events:none}
+.sc-num{font-family:var(--fu);font-size:.6rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;background:rgba(255,255,255,.18);padding:.18rem .55rem;border-radius:3px;margin-bottom:.5rem;display:inline-block}
+.sc-icon{font-size:1.6rem;margin-bottom:.3rem;display:block}
+.sc-nm{font-family:var(--fh);font-size:1.12rem;font-weight:700;line-height:1.22}
+.sc-sb{font-style:italic;font-size:.82rem;opacity:.82;margin-top:.18rem}
+.sc-bd{padding:.95rem 1.4rem 1rem;font-size:.87rem;color:var(--ink3);line-height:1.62}
+.sc-ft{padding:.65rem 1.4rem;color:#fff;display:flex;align-items:center;justify-content:space-between;font-family:var(--fu);font-size:.68rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+
+/* ===== DETAIL ===== */
+.d-hd{color:#fff;padding:3rem 3rem 2.5rem;position:relative;overflow:hidden}
+.d-hd::before{content:attr(data-n);position:absolute;right:-8px;bottom:-15px;font-family:var(--fh);font-size:14rem;font-weight:900;opacity:.06;line-height:1;pointer-events:none}
+.d-top{max-width:980px;display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.d-num{font-family:var(--fh);font-size:1.05rem;opacity:.7;font-weight:700}
+.d-ic{font-size:2.8rem}
+.d-nm{font-family:var(--fh);font-size:clamp(1.6rem,4vw,2.9rem);font-weight:700;line-height:1.1;margin:.25rem 0}
+.d-sb{font-family:var(--fb);font-style:italic;font-size:.98rem;opacity:.85;margin-bottom:1.1rem}
+.dbadges{display:flex;flex-wrap:wrap;gap:.38rem}
+.badge{font-family:var(--fu);font-size:.65rem;font-weight:700;background:rgba(255,255,255,.18);padding:.2rem .65rem;border-radius:20px}
+.db{max-width:980px;margin:0 auto;padding:2.5rem 2rem 5rem}
+
+/* ===== CONTENT COMPONENTS ===== */
+.dsec{margin-bottom:2.4rem}
+.dlbl{font-family:var(--fu);font-size:.63rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--cc,var(--saffron));margin-bottom:.85rem;padding-bottom:.38rem;border-bottom:2px solid var(--ccp,var(--saffronp))}
+.prose{background:var(--white);border-radius:var(--r);padding:1.7rem 1.9rem;box-shadow:var(--sh);border-left:5px solid var(--cc,var(--saffron));font-size:.97rem;color:var(--ink2);line-height:1.82}
+.prose p+p{margin-top:.85rem}
+.prose h4{font-family:var(--fh);font-size:1.02rem;font-weight:700;color:var(--cc,var(--indigo));margin:.9rem 0 .38rem}
+.prose strong{color:var(--ink);font-weight:600}
+.verse{background:linear-gradient(135deg,var(--indigo),var(--indigo2));color:#fff;border-radius:var(--r);padding:1.5rem 1.8rem;margin:1.2rem 0;box-shadow:var(--sh2)}
+.verse-lbl{font-family:var(--fu);font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--saffron3);margin-bottom:.5rem;display:block}
+.verse-text{font-family:var(--fh);font-style:italic;font-size:1.1rem;line-height:1.72;color:rgba(255,255,255,.95)}
+.verse-ref{font-size:.74rem;color:rgba(252,211,77,.72);margin-top:.45rem;font-family:var(--fu)}
+.india{background:linear-gradient(135deg,var(--saffronp),rgba(224,123,0,.03));border:1.5px solid rgba(224,123,0,.28);border-radius:12px;padding:1.3rem 1.65rem;margin:1.2rem 0}
+.india-hd{font-family:var(--fu);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--saffron);margin-bottom:.52rem;display:flex;align-items:center;gap:.45rem}
+.india-body{font-size:.9rem;color:var(--ink2);line-height:1.72}
+.india-body strong{color:var(--saffron);font-weight:700}
+.challenge{background:linear-gradient(135deg,var(--crimsonp),rgba(139,21,21,.03));border:1.5px solid rgba(139,21,21,.2);border-radius:12px;padding:1.3rem 1.65rem;margin:1.2rem 0}
+.ch-hd{font-family:var(--fu);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--crimson);margin-bottom:.52rem}
+.ch-body{font-size:.9rem;color:var(--ink2);line-height:1.72}
+.ch-body strong{color:var(--crimson);font-weight:700}
+.practical{background:linear-gradient(135deg,var(--forestp),rgba(26,74,46,.03));border:1.5px solid rgba(26,74,46,.2);border-radius:12px;padding:1.3rem 1.65rem;margin:1.2rem 0}
+.pr-hd{font-family:var(--fu);font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--forest);margin-bottom:.52rem}
+.pr-body{font-size:.9rem;color:var(--ink2);line-height:1.72}
+.pr-body strong{color:var(--forest);font-weight:700}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(248px,1fr));gap:1.05rem;margin-top:.5rem}
+.card{background:var(--white);border-radius:10px;padding:1.1rem 1.3rem;box-shadow:var(--sh);border-top:3px solid var(--cc,var(--saffron))}
+.card-ic{font-size:1.45rem;margin-bottom:.38rem}
+.card-ti{font-family:var(--fh);font-size:.96rem;font-weight:700;color:var(--cc,var(--indigo));margin-bottom:.38rem;line-height:1.25}
+.card-bd{font-size:.87rem;color:var(--ink2);line-height:1.64}
+.card-bd strong{color:var(--ink);font-weight:600}
+.steps{display:flex;flex-direction:column;gap:.85rem;margin-top:.5rem}
+.step{display:flex;gap:1rem;align-items:flex-start;background:var(--white);border-radius:10px;padding:.95rem 1.25rem;box-shadow:var(--sh)}
+.step-n{font-family:var(--fh);font-size:1.5rem;font-weight:700;color:var(--cc,var(--saffron));min-width:2rem;line-height:1.2}
+.step-ti{font-family:var(--fh);font-size:.95rem;font-weight:700;color:var(--cc,var(--indigo));margin-bottom:.28rem}
+.step-bd{font-size:.88rem;color:var(--ink2);line-height:1.64}
+.tl{position:relative;padding-left:2rem;margin-top:.5rem}
+.tl::before{content:'';position:absolute;left:.55rem;top:.5rem;bottom:.5rem;width:2px;background:linear-gradient(to bottom,var(--cc,var(--saffron)),transparent)}
+.tl-item{position:relative;margin-bottom:1.4rem}
+.tl-dot{position:absolute;left:-2rem;top:.3rem;width:12px;height:12px;border-radius:50%;background:var(--cc,var(--saffron));border:2px solid var(--cream);box-shadow:var(--sh)}
+.tl-date{font-family:var(--fu);font-size:.65rem;font-weight:700;letter-spacing:.08em;color:var(--cc,var(--saffron));text-transform:uppercase;margin-bottom:.2rem}
+.tl-text{font-size:.9rem;color:var(--ink2);line-height:1.64;background:var(--white);border-radius:8px;padding:.82rem .95rem;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+.tl-text strong{color:var(--ink);font-weight:600}
+.warn{background:linear-gradient(135deg,#fffbeb,rgba(245,158,11,.06));border:1.5px solid rgba(245,158,11,.35);border-radius:12px;padding:1.1rem 1.4rem;margin:1.1rem 0;font-size:.9rem;color:var(--ink2);line-height:1.68}
+.warn strong{color:var(--gold);font-family:var(--fu);font-size:.63rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;display:block;margin-bottom:.38rem}
+.d-nav{margin-top:2.5rem;display:flex;gap:.65rem;flex-wrap:wrap}
+.rev{opacity:0;transform:translateY(14px);transition:opacity .45s ease,transform .45s ease}
+.rev.vis{opacity:1;transform:none}
+@media(max-width:900px){.hero{padding:4rem 1.8rem 3rem;min-height:auto}.d-hd{padding:2rem 1.5rem}.db{padding:1.5rem .95rem 4rem}}
+@media(max-width:600px){#nav{padding:.5rem 1rem}#scr-ov{padding:2rem .85rem 4rem}.cards{grid-template-columns:1fr}.sgrid{grid-template-columns:1fr}.d-top{flex-wrap:wrap}}
+</style>
 </head>
 <body>
+<nav id="nav">
+  <div class="brand" onclick="go('hero')">The Dynamism of Jubilee <small>St Ann's Sisters · Khamgaon, Maharashtra · 2025</small></div>
+  <div class="nbts" id="nbts">
+    <button class="nb no" onclick="go('ov')">All Sessions</button>
+  </div>
+</nav>
 
-<!-- Slide 1: Title Slide -->
-<div class="slide">
-    <div class="slide-number">1/25</div>
-    <h1>The Dynamism of Jubilee</h1>
-    <h2>A Theological Exploration of the Jubilee of Pilgrims of Hope</h2>
-    <div style="text-align: center; margin: 50px 0;">
-        <div style="font-size: 1.5em; color: #7f8c8d; margin: 20px 0;">
-            From Ancient Israel to Pope Francis's Vision for 2025
-        </div>
-        <div class="quote-box">
-            "Hope does not disappoint, because God's love has been poured into our hearts through the Holy Spirit that has been given to us." - Romans 5:5
-        </div>
+<div id="screen-hero" class="screen active">
+  <div class="hero">
+    <div class="h-eyebrow">Jubilee 2025 · Priests &amp; Religious · India</div>
+    <h1 class="h-title">The Dynamism of <em>Jubilee</em></h1>
+    <p class="h-subtitle">Pilgrims of Hope in the Vineyards of India</p>
+    <div class="h-rule"></div>
+    <div class="h-meta">
+      <span><strong>Audience:</strong> Priests and Nuns — Khamgaon, Vidarbha, Maharashtra</span>
+      <span><strong>Year:</strong> Jubilee 2025 — <em>Spes Non Confundit</em></span>
+      <span><strong>Theme:</strong> Theological Depth · Indian Context · Pastoral Challenges</span>
     </div>
-    <div style="text-align: center; margin-top: 40px;">
-        <p><strong>Spes non confundit</strong> - Hope does not disappoint</p>
-        <p>Jubilee Year 2025: December 24, 2024 - January 6, 2026</p>
+    <blockquote class="h-verse">
+      "Hope does not disappoint, because God's love has been poured into our hearts through the Holy Spirit who has been given to us."
+      <cite>— Romans 5:5 · Bull of Indiction: <em>Spes Non Confundit</em>, Pope Francis, 9 May 2024</cite>
+    </blockquote>
+    <div class="hbtns">
+      <button class="hbp" onclick="go('ov')">Explore All Sessions →</button>
+      <button class="hbs" onclick="showDet('s1')">Begin: What is Jubilee?</button>
     </div>
+  </div>
 </div>
 
-<!-- Slide 2: Definitions and Core Terms -->
-<div class="slide">
-    <div class="slide-number">2/25</div>
-    <h1>Understanding Key Terms</h1>
-    
-    <h2>Jubilee (יוֹבֵל - Yovel)</h2>
-    <div class="biblical-reference">
-        <strong>Etymology:</strong> Hebrew word referring to the ram's horn (shofar) blown to announce the year. Signifies a loud, joyful proclamation of liberation and renewal.
-    </div>
-    
-    <h2>Pilgrims</h2>
-    <div class="modern-application">
-        <strong>Pope Francis's Vision:</strong> Individuals on a spiritual journey of faith, conversion, and seeking God. Emphasizes leaving comfort zones, encountering new realities, and walking a shared path toward ultimate fulfillment in God.
-    </div>
-    
-    <h2>Hope (Theological Virtue)</h2>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">3</div>
-            <div class="stat-label">Theological Virtues<br>(Faith, Hope, Charity)</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">∞</div>
-            <div class="stat-label">God's Faithfulness<br>Foundation of Hope</div>
-        </div>
-    </div>
-    
-    <p><strong>Hope is not wishful thinking</strong> but a confident expectation and trust in God's promises, especially in challenging times. It is grounded in God's love poured into hearts through the Holy Spirit (Romans 5:5).</p>
+<div id="scr-ov" class="screen">
+  <div class="ov-head">
+    <h2 class="ov-title">All Sessions — Jubilee 2025 for Priests &amp; Religious in India</h2>
+    <button class="nb no act" onclick="go('hero')">← Back</button>
+  </div>
+  <div class="sgrid" id="sgrid"></div>
 </div>
 
-<!-- Slide 3: Biblical Foundations - Old Testament Origins -->
-<div class="slide">
-    <div class="slide-number">3/25</div>
-    <h1>Biblical Foundations: Old Testament Origins</h1>
-    
-    <h2>The Sabbatical Cycle (Shemitah) - Every 7th Year</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <strong>Land Rest:</strong> Fields lie fallow, allowing soil recovery and demonstrating trust in God's providence
-        </div>
-        <div class="timeline-item">
-            <strong>Debt Remission:</strong> Economic justice through cancellation of debts among Israelites
-        </div>
-        <div class="timeline-item">
-            <strong>Slave Liberation:</strong> Hebrew servants freed, preventing permanent bondage
-        </div>
-    </div>
-    
-    <h2>The Jubilee Year - Every 50th Year (7 x 7 + 1)</h2>
-    <div class="chart-container">
-        <canvas id="jubileeChart"></canvas>
-    </div>
-    
-    <div class="biblical-reference">
-        <strong>Leviticus 25:10:</strong> "You shall hallow the fiftieth year and you shall proclaim liberty throughout the land to all its inhabitants. It shall be a jubilee to you; and each of you shall return to his own property."
-    </div>
-    
-    <script>
-        const ctx1 = document.getElementById('jubileeChart').getContext('2d');
-        new Chart(ctx1, {
-            type: 'bar',
-            data: {
-                labels: ['Year 1-6', 'Year 7 (Sabbatical)', 'Year 8-13', 'Year 14 (Sabbatical)', '...', 'Year 50 (Jubilee)'],
-                datasets: [{
-                    label: 'Land Use Intensity',
-                    data: [100, 0, 100, 0, 100, 0],
-                    backgroundColor: ['#3498db', '#e74c3c', '#3498db', '#e74c3c', '#3498db', '#f39c12'],
-                    borderColor: ['#2980b9', '#c0392b', '#2980b9', '#c0392b', '#2980b9', '#e67e22'],
-                    borderWidth: 2
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        max: 120,
-                        title: {
-                            display: true,
-                            text: 'Agricultural Activity Level (%)'
-                        }
-                    }
-                },
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Sabbatical and Jubilee Cycle: Land Rest Pattern'
-                    }
-                }
-            }
-        });
-    </script>
-</div>
+<div id="scr-det" class="screen"><div id="dcont"></div></div>
 
-<!-- Slide 4: The Four R's and Four F's -->
-<div class="slide">
-    <div class="slide-number">4/25</div>
-    <h1>The Four R's and Four F's of Jubilee</h1>
-    
-    <h2>The Four R's - Core Principles</h2>
-    <div class="four-rs">
-        <div class="principle-card">
-            <h4>REDEMPTION</h4>
-            <p>Liberation from bondage, whether physical (slavery) or economic (debt)</p>
-        </div>
-        <div class="principle-card">
-            <h4>RELEASE</h4>
-            <p>Setting free, particularly slaves and those bound by debt obligations</p>
-        </div>
-        <div class="principle-card">
-            <h4>RESTORATION</h4>
-            <p>Returning land to original owners, restoring family inheritance and social balance</p>
-        </div>
-        <div class="principle-card">
-            <h4>REST</h4>
-            <p>For the land (lying fallow) and people (from labor), trusting in God's providence</p>
-        </div>
-    </div>
-    
-    <h2>The Four F's - Practical Applications</h2>
-    <div class="four-fs">
-        <div class="principle-card" style="background: #e74c3c;">
-            <h4>FORGIVENESS</h4>
-            <p>Of debts, both financial and spiritual, breaking cycles of oppression</p>
-        </div>
-        <div class="principle-card" style="background: #e74c3c;">
-            <h4>FREEDOM</h4>
-            <p>For individuals and for the land, liberation from all forms of bondage</p>
-        </div>
-        <div class="principle-card" style="background: #e74c3c;">
-            <h4>FAMILY</h4>
-            <p>Restoration of family inheritance, preventing permanent dispossession</p>
-        </div>
-        <div class="principle-card" style="background: #e74c3c;">
-            <h4>FULLNESS</h4>
-            <p>Return to a state of abundance and justice as intended by God</p>
-        </div>
-    </div>
-</div>
+<script>
+const S=[
+// ===================== SESSION 1 =====================
+{id:'s1',num:'01',icon:'📯',
+nm:'What Is Jubilee? The Yovel and Its Theology',
+sb:'From Leviticus to Pope Francis — The Unbroken Thread',
+c:'#1e2d5a',dk:'#0d1a38',pl:'#eef2ff',
+tags:['Leviticus 25','Yovel','Shemitah','Spes Non Confundit','Holy Year'],
+prev:'Jubilee is not a Vatican tourism event. It is one of the most radical social, economic, and spiritual provisions in all of Scripture. Understanding it from its Hebrew roots is the first step.',
+ct:[
+{t:'prose',l:'The Word Yovel — Ram\'s Horn and Liberation',tx:`<p>The Hebrew word <strong>Yovel</strong> (יוֹבֵל) refers to the ram's horn — the shofar — that was blown on the Day of Atonement (<em>Yom Kippur</em>) in the forty-ninth year to announce the beginning of the fiftieth year of Jubilee. The sound of the shofar was itself a proclamation: what the horn announced, God was already doing. The sound did not create the liberation; it declared what God's justice demanded.</p><p>The Jubilee year operated within the <strong>Shemitah cycle</strong>: every seventh year the land lay fallow, debts were remitted, and Hebrew servants were released. The Jubilee was the year after seven cycles of seven years — the fiftieth year — the Sabbath of Sabbaths, when all these provisions reached their most radical expression: land returned to original families, all debts cancelled, all indentured labourers freed, the land rested.</p><p>The deepest theological foundation is given in <strong>Leviticus 25:23</strong>: "The land shall not be sold permanently, because the land is mine. You are only foreigners and tenants." This is not agrarian legislation. It is a theology of creation and covenant: God is the ultimate owner of all things; human beings are stewards, not proprietors; and therefore no human arrangement that permanently dispossesses another person can stand before God.</p>`},
+{t:'verse',label:'The Levitical Foundation',tx:'"You shall hallow the fiftieth year and you shall proclaim liberty throughout the land to all its inhabitants. It shall be a jubilee for you; each of you shall return to your own property and each of you shall return to your own family."',ref:'— Leviticus 25:10. The word "liberty" (Hebrew: deror) means free movement — liberation from structural constraint, not merely personal freedom.'},
+{t:'cards',l:'Three Pillars of the Jubilee Structure',items:[
+{ic:'🌾',ti:'Land (Adamah)',b:'The land was not a commodity to be accumulated. Every Jubilee returned alienated land to its original family. This prevented the emergence of a permanent landless underclass. The theology: land belongs ultimately to God, not to any human accumulator.'},
+{ic:'💰',ti:'Debt (Chov)',b:'The cancellation of debts — especially the kind that drove families into bonded labour — was the economic heart of Jubilee. Lending was permitted, but permanent debt-bondage was not. The theology: human beings cannot be permanently owned or controlled by economic power.'},
+{ic:'👤',ti:'People (Am)',b:'Indentured servants — Hebrews sold into bondage to pay debts — were released in the Jubilee year. The theology: the dignity of the human person, as image of God (imago Dei), cannot be permanently alienated even by economic necessity.'},
+]},
+{t:'prose',l:'The Bull of Indiction: Spes Non Confundit (May 9, 2024)',tx:`<p>Pope Francis opened the Jubilee Year 2025 with the Bull of Indiction <em>Spes Non Confundit</em> ("Hope does not disappoint") on 9 May 2024, with the formal opening of the Holy Door on 24 December 2024. The title is drawn from Romans 5:5, and it signals the Pope's theological focus: this Jubilee is about <strong>hope as a theological virtue</strong>, not merely optimism.</p><p>The Bull explicitly connects the ancient Jubilee provisions — land rest, debt release, liberation of captives — to the present global situation: debt crises in developing nations, the suffering of prisoners, ecological devastation, the crisis of hope among the young. For priests and religious in India, the Bull reads with particular urgency: its themes of structural poverty, exploitation of the marginalised, and the need for communities of genuine hope speak directly to the Indian pastoral context.</p><p>The Pope's opening sentence of the Bull is programmatic: "The hope of which the Apostle Paul speaks is not wishful thinking. It is the certain expectation of something that has been promised." Hope, for Francis, is grounded not in human goodwill but in the paschal mystery — the death and resurrection of Jesus Christ, which is the ultimate Jubilee.</p>`},
+{t:'india',tx:`<strong>The Jubilee in the Indian Imagination:</strong> India has its own rich traditions of periodic renewal, liberation, and the return to original dignity. The concept of <em>Dharma</em> includes the obligation of those in power to ensure that the weak are not permanently dispossessed. The <em>Kumbh Mela</em> — perhaps the world's largest periodic pilgrimage — gathers millions every twelve years at the confluence of rivers, embodying the Indian instinct for periodic renewal and collective spiritual refreshment. The Jubilee speaks to this instinct while radicalising it: the renewal it offers is not merely spiritual but structural, not merely personal but social and economic. For priests and nuns working in Maharashtra's districts — where farmer suicides continue, where Dalit families remain landless generations after land reform laws, where bonded labour persists in brick kilns and sugarcane fields — the Jubilee's ancient provisions are a prophetic word for today.`},
+]},
 
-<!-- Slide 5: Theological Significance in Old Testament -->
-<div class="slide">
-    <div class="slide-number">5/25</div>
-    <h1>Theological Significance in the Old Testament</h1>
-    
-    <h2>Divine Ownership Principle</h2>
-    <div class="biblical-reference">
-        <strong>Leviticus 25:23:</strong> "The land must not be sold permanently, because the land is mine and you reside in my land as foreigners and strangers."
-    </div>
-    
-    <h2>Core Theological Principles</h2>
-    <table>
-        <tr>
-            <th>Principle</th>
-            <th>Description</th>
-            <th>Modern Application</th>
-        </tr>
-        <tr>
-            <td><strong>Divine Sovereignty</strong></td>
-            <td>God is ultimate owner of all creation</td>
-            <td>Stewardship responsibility for environment</td>
-        </tr>
-        <tr>
-            <td><strong>Social Justice</strong></td>
-            <td>Prevent extreme wealth accumulation</td>
-            <td>Progressive taxation, wealth redistribution</td>
-        </tr>
-        <tr>
-            <td><strong>Liberation</strong></td>
-            <td>Freedom from all forms of bondage</td>
-            <td>Human rights, debt relief programs</td>
-        </tr>
-        <tr>
-            <td><strong>Restoration</strong></td>
-            <td>Return to God's original design</td>
-            <td>Restorative justice, reconciliation</td>
-        </tr>
-    </table>
-    
-    <h2>Historical Observance Challenges</h2>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">?</div>
-            <div class="stat-label">Historical Evidence<br>Limited documentation</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">586</div>
-            <div class="stat-label">BCE Babylonian Exile<br>Linked to Jubilee neglect</div>
-        </div>
-    </div>
-    
-    <p>Scholars debate how consistently the Jubilee was practiced in ancient Israel. It served more as a theological ideal and prophetic critique of societal injustices than a consistently enforced legal reality.</p>
-</div>
+// ===================== SESSION 2 =====================
+{id:'s2',num:'02',icon:'✝️',
+nm:'Isaiah 61 and Luke 4 — Jesus as Jubilee',
+sb:'The Nazareth Manifesto and Its Demands on Consecrated Life',
+c:'#1a4a2e',dk:'#0a2a18',pl:'#f0faf4',
+tags:['Isaiah 61','Luke 4:18-21','Nazareth Manifesto','Good News to the Poor','Anawim'],
+prev:'Jesus did not merely quote Isaiah 61 in the Nazareth synagogue. He declared its fulfilment in himself. Understanding this declaration changes everything about how priests and religious understand their own mission.',
+ct:[
+{t:'prose',l:'Isaiah 61 — The Prophetic Jubilee Vision',tx:`<p>Isaiah 61:1-2 is not merely a poetic wish. It is a precisely structured declaration drawing on the specific vocabulary of Leviticus 25. The phrase <strong>"proclaim the year of the Lord's favour"</strong> uses the same Hebrew vocabulary as the Jubilee proclamation. Isaiah is extending the Jubilee from an economic institution into a prophetic vision that encompasses the whole of human suffering: the brokenhearted, the mourners, the bound, the prisoners.</p><p>The four actions of Isaiah 61 are worth dwelling on for priests and religious in India:<br>(1) <em>Good news to the poor</em> (anawim — the materially destitute and the spiritually humble);<br>(2) <em>Bind up the brokenhearted</em> — healing as an act of liberation, not just charity;<br>(3) <em>Proclaim liberty to the captives</em> — the word used for the Jubilee release of bonded servants;<br>(4) <em>Open the prison to those who are bound</em> — a specific, concrete act of liberation.<br>These four actions define a prophetic programme, not a devotional attitude. They are verbs, not adjectives.</p>`},
+{t:'verse',label:'The Nazareth Declaration — Luke 4:18-21',tx:'"The Spirit of the Lord is upon me, because he has anointed me to proclaim good news to the poor. He has sent me to proclaim liberty to the captives and recovering of sight to the blind, to set at liberty those who are oppressed, to proclaim the year of the Lord\'s favour." ... "Today this Scripture has been fulfilled in your hearing."',ref:'— Luke 4:18-19, 21. Note: Jesus stopped reading before Isaiah\'s phrase about "the day of vengeance." He proclaimed Jubilee without revenge. This is theologically decisive.'},
+{t:'prose',l:'Why Jesus Stopped Reading',tx:`<p>In Luke 4:19, Jesus read from Isaiah 61:1-2 but stopped mid-sentence, before Isaiah's phrase "and the day of vengeance of our God." This is not accidental. His proclamation of Jubilee is deliberately <em>universal</em> — not a liberation for Israel against its enemies, but a liberation that includes the enemy. The two examples he then gives to the enraged congregation — Elijah sent to the widow of Zarephath (a Phoenician Gentile) and Elisha healing Naaman the Syrian (an enemy general) — make this explicit. The Jubilee of Jesus crosses every boundary that religious nationalism draws.</p><p>This is a direct challenge for priests and religious in India who serve communities that can easily define themselves over against others — higher castes over lower castes, Hindus over Christians, majority over minority. The Jubilee of Jesus refuses these definitions. It is not a Jubilee for "our group." It is a Jubilee that sees in every suffering human being the one whom Christ came to liberate.</p>`},
+{t:'cards',l:'The Four Actions of Luke 4 — Applied to India',items:[
+{ic:'📢',ti:'Good News to the Poor',b:'In Vidarbha, the "poor" are the 60,000+ farm families affected by the agricultural crisis. "Good news" is not a verbal announcement — it is a changed material reality. Fr. Francis Gonsalves, S.J. asks: "What concretely changes in a poor family\'s life because we are here?"'},
+{ic:'⛓️',ti:'Liberty to Captives',b:'Bonded labour — legally abolished in 1976 but functionally present in Maharashtra\'s brick kilns, quarries, and sugarcane harvesting — is the contemporary equivalent. Religious congregations with legal capacity and community trust can be the ones who name it and act.'},
+{ic:'👁️',ti:'Sight to the Blind',b:'Literacy, awareness of rights, access to information, access to legal aid — these are contemporary forms of "recovering sight." Congregations running schools and dispensaries are providing this, but the Jubilee demands we ask who is still excluded.'},
+{ic:'🕊️',ti:'Proclaiming the Year of Favour',b:'This is the priestly task: naming the moment. Priests and nuns are the ones who can say to a broken community: "God sees. God acts. This suffering is not the final word." That naming is itself a form of liberation.'},
+]},
+{t:'india',tx:`<strong>The Adivasi and Dalit Context in Vidarbha:</strong> Khamgaon district in Buldhana, Maharashtra sits at the edge of one of India's most economically stressed regions. The cotton-growing districts of Vidarbha have seen more than 18,000 farmer suicides between 2001 and 2023 (Tata Institute of Social Sciences data). Adivasi communities in the adjacent districts of Yavatmal, Amravati, and Washim face displacement, debt spirals, and the erosion of traditional land rights. For a nun working in a dispensary in Khamgaon, for a priest administering a parish in a predominantly Banjara (Scheduled Tribe) village — the Nazareth Manifesto is not a text to be preached. It is a job description.`},
+{t:'practical',tx:`<strong>Practical Application — A "Jubilee Audit" for Your Community:</strong> Invite your community to do a concrete assessment: (1) Who in our parish/school/hospital are the "captives" — those trapped by debt, bonded labour, or addiction? (2) Who is "brokenhearted" — those dealing with farmer suicide bereavement, gender-based violence, or systemic discrimination? (3) Who is "blind" — those without access to legal aid, without awareness of government schemes, without voice? (4) What is one concrete action our community will take this Jubilee year for each category? This is not "charity." It is the Jubilee.`},
+]},
 
-<!-- Slide 6: Prophetic Expansion - Isaiah's Vision -->
-<div class="slide">
-    <div class="slide-number">6/25</div>
-    <h1>Prophetic Expansion: Isaiah's Vision</h1>
-    
-    <h2>Isaiah 61:1-2 - The Ultimate Jubilee</h2>
-    <div class="quote-box">
-        "The Spirit of the Lord GOD is upon me, because the LORD has anointed me to bring good news to the poor; he has sent me to bind up the brokenhearted, to proclaim liberty to the captives, and the opening of the prison to those who are bound; to proclaim the year of the LORD's favor..."
-    </div>
-    
-    <h2>Expansion Beyond Material to Spiritual</h2>
-    <div class="chart-container">
-        <canvas id="expansionChart"></canvas>
-    </div>
-    
-    <h2>Key Prophetic Themes</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <strong>Good News to the Poor:</strong> Economic justice expanded to include spiritual poverty and marginalization
-        </div>
-        <div class="timeline-item">
-            <strong>Liberty to Captives:</strong> Physical freedom broadened to include spiritual and psychological liberation
-        </div>
-        <div class="timeline-item">
-            <strong>Comfort for Mourners:</strong> Healing and restoration for all forms of human suffering
-        </div>
-        <div class="timeline-item">
-            <strong>Year of Lord's Favor:</strong> God's definitive intervention in human history
-        </div>
-    </div>
-    
-    <script>
-        const ctx2 = document.getElementById('expansionChart').getContext('2d');
-        new Chart(ctx2, {
-            type: 'doughnut',
-            data: {
-                labels: ['Economic Justice', 'Spiritual Liberation', 'Physical Healing', 'Social Restoration', 'Emotional Comfort'],
-                datasets: [{
-                    data: [20, 25, 20, 20, 15],
-                    backgroundColor: ['#3498db', '#e74c3c', '#2ecc71', '#f39c12', '#9b59b6'],
-                    borderColor: '#fff',
-                    borderWidth: 3
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Isaiah\'s Expanded Vision of Jubilee'
-                    },
-                    legend: {
-                        position: 'bottom'
-                    }
-                }
-            }
-        });
-    </script>
-</div>
+// ===================== SESSION 3 =====================
+{id:'s3',num:'03',icon:'🙏',
+nm:'Spes Non Confundit — The Theology of Hope',
+sb:'Hope as Virtue, not Sentiment — What Romans 5:5 Demands of Us',
+c:'#8b1515',dk:'#5a0000',pl:'#fff5f5',
+tags:['Romans 5:5','Hope','kataischuno','Theological Virtue','Paschal Mystery'],
+prev:'The Jubilee 2025 theme is not optimism. Pope Francis grounds it in the precise theological analysis of Romans 5:5. For priests and religious in India, the difference between hope and optimism is the difference between the Cross and a motivational poster.',
+ct:[
+{t:'prose',l:'The Greek Word Kataischuno',tx:`<p>The Greek word underlying "does not disappoint" in Romans 5:5 is <strong>kataischuno</strong> — literally "does not put to shame," does not make a fool of, does not make a liar of. Paul's promise is not that everything will go well. It is that the one who has been given the Spirit will not, in the end, be found to have been a fool for hoping. This is a profoundly different claim.</p><p>Paul's logic in Romans 5:1-5 is structured through tribulation: "We also boast in our afflictions, knowing that affliction produces endurance, and endurance produces character, and character produces hope." Hope, for Paul, is <em>produced</em> by suffering well-endured — it is not an escape from suffering but a product of it. This is crucially important for priests and nuns in India who minister in communities where suffering is structural and ongoing.</p><p>The "pouring of God's love into our hearts through the Holy Spirit" (Romans 5:5b) is the pneumatological foundation of hope. It is not a sentiment we generate. It is a gift we receive. The Spirit, who is the "first fruits" (Romans 8:23) and the "guarantee" (2 Cor 5:5) of the final fulfilment, makes hope a theological reality, not a psychological projection.</p>`},
+{t:'verse',label:'Romans 5:1-5 — The Logic of Hope',tx:'"We also boast in our afflictions, knowing that affliction produces endurance, and endurance produces character, and character produces hope, and hope does not put us to shame, because God\'s love has been poured into our hearts through the Holy Spirit who has been given to us."',ref:'— Romans 5:3-5. Note the sequence: affliction → endurance → character (dokime: tested quality) → hope. Hope is not the first step. It is the fruit of faithfully endured tribulation.'},
+{t:'cards',l:'Hope vs. Optimism vs. Despair — For Indian Context',items:[
+{ic:'😊',ti:'Optimism (Not Christian Hope)',b:'Optimism is a temperamental disposition — some people are naturally upbeat. It has no theological content. When a Vidarbha farmer\'s fourth crop fails and he is facing debt of ₹3 lakhs, optimism is an insult. Christian hope is something different.'},
+{ic:'✝️',ti:'Christian Hope (Spes)',b:'Hope is a theological virtue — a gift of the Holy Spirit grounded in the paschal mystery. It is the certainty that the last word about human existence is not death, debt, or defeat but the resurrection of Jesus Christ. It can be held even in the deepest darkness.'},
+{ic:'😞',ti:'Despair — The Epidemic',b:'The suicide crisis in Vidarbha is not merely economic. It is a crisis of hope — the sense that one\'s life has no future and one\'s suffering has no meaning. The priest and the nun who carry genuine hope into these communities are not offering a feeling. They are offering a person — Jesus Christ, who rose from the dead.'},
+{ic:'🌱',ti:'Hope as Practice',b:'For religious and priests: hope is sustained by prayer, by the Eucharist, by the community of the Church, and by concrete acts of solidarity. When you sit with a bereaved farming family and do not offer easy consolation, when you stay in the difficult parish, when you refuse to abandon the marginalised — you are practising hope.'},
+]},
+{t:'india',tx:`<strong>The Farmer Suicide Crisis and the Ministry of Hope:</strong> Between 1995 and 2023, over 300,000 farmers died by suicide in India — the largest agrarian suicide crisis in recorded human history (P. Sainath, PARI Foundation). In Vidarbha's cotton-growing districts, the causes are structural: high input costs, unpredictable rainfall (now worsened by climate change), crash in cotton prices, and a debt cycle that begins with money-lenders charging 24-36% annual interest. The priest or nun who ministers in these villages is ministering to communities saturated with traumatic grief. The theology of hope in Romans 5 — hope born from suffering, not despite it — is not abstract here. It is the only thing that holds.`},
+{t:'challenge',tx:`<strong>The Challenge of Sustained Ministry in Crisis Zones:</strong> Religious and priests who minister in chronically distressed communities face their own crisis of hope. Burnout, compassion fatigue, the sense that nothing changes despite years of effort — these are real spiritual dangers. The Jubilee invitation to renewal is not only for the people we serve. It is for us. The Jubilee year is a kairos — an opportunity for retreat, for honest assessment of our interior life, for the renewal of our own hope through deeper encounter with the Spirit who has been poured into our hearts.`},
+{t:'practical',tx:`<strong>For Priests: A Jubilee Homily on Hope — Three Points for Rural Maharashtra:</strong> (1) God has not abandoned Vidarbha. The Spirit who raised Jesus from the dead is present in the cotton fields and the dry riverbeds. (2) Your suffering is not your shame. The one who endures to the end — like the Cross — is not a fool. The resurrection is the proof. (3) This Jubilee year, our community will do one concrete act that says: "We believe the future is possible." Name that act at the end of your homily and invite your parishioners to commit to it.`},
+]},
 
-<!-- Slide 7: Jesus as the Fulfillment of Jubilee -->
-<div class="slide">
-    <div class="slide-number">7/25</div>
-    <h1>Jesus as the Fulfillment of Jubilee</h1>
-    
-    <h2>The Nazareth Proclamation (Luke 4:16-21)</h2>
-    <div class="biblical-reference">
-        <strong>Luke 4:18-19:</strong> "The Spirit of the Lord is upon me, because he has anointed me to proclaim good news to the poor. He has sent me to proclaim liberty to the captives and recovering of sight to the blind, to set at liberty those who are oppressed, to proclaim the year of the Lord's favor."
-    </div>
-    
-    <div class="quote-box">
-        "Today this Scripture has been fulfilled in your hearing." - Luke 4:21
-    </div>
-    
-    <h2>Christ's Jubilee Ministry</h2>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">37</div>
-            <div class="stat-label">Recorded Miracles<br>Signs of Liberation</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">∞</div>
-            <div class="stat-label">Spiritual Freedom<br>"If Son sets you free..."</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">3</div>
-            <div class="stat-label">Years Ministry<br>Continuous Jubilee</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">12</div>
-            <div class="stat-label">Apostles Called<br>Jubilee Messengers</div>
-        </div>
-    </div>
-    
-    <h2>Transformation from Temporal to Eternal</h2>
-    <table>
-        <tr>
-            <th>Old Testament Jubilee</th>
-            <th>Christ's Jubilee</th>
-        </tr>
-        <tr>
-            <td>Every 50 years</td>
-            <td>Continuous reality</td>
-        </tr>
-        <tr>
-            <td>Physical liberation</td>
-            <td>Spiritual freedom</td>
-        </tr>
-        <tr>
-            <td>National (Israel)</td>
-            <td>Universal (all humanity)</td>
-        </tr>
-        <tr>
-            <td>External regulations</td>
-            <td>Internal transformation</td>
-        </tr>
-        <tr>
-            <td>Temporary relief</td>
-            <td>Eternal salvation</td>
-        </tr>
-    </table>
-</div>
+// ===================== SESSION 4 =====================
+{id:'s4',num:'04',icon:'🌾',
+nm:'Jubilee and the Agrarian Crisis in India',
+sb:'Debt, Land, and the Spirit of Leviticus 25 in Maharashtra',
+c:'#4a6a1a',dk:'#2a3a0a',pl:'#eef5e8',
+tags:['Farmer Suicide','Land Rights','Debt','Vidarbha','Laudato Si'],
+prev:'Leviticus 25 was written for a farming society. Its central provisions — land rest, debt release, liberation of bonded servants — speak with direct precision to the agrarian crisis of Maharashtra. This is not an analogy. It is a direct application.',
+ct:[
+{t:'prose',l:'The Structural Sin of the Debt Cycle',tx:`<p>Leviticus 25 was addressed to farmers. Its concern was precisely the situation that obtains in Vidarbha today: a farmer takes a loan to plant a crop; the crop fails; the debt accumulates; the farmer is forced to sell land or enter bonded service; the family is permanently dispossessed. The Jubilee law was designed to interrupt this cycle structurally, not to address it charitably after the fact.</p><p>The key theological principle: the Jubilee was not charity. It was not a donation by the rich to the poor. It was a <strong>structural reset</strong> mandated by God's ownership of the land. The poor did not receive land back as a gift from the wealthy. They received it back as a right grounded in creation theology — because it was theirs, because God had given it to their families, because no economic arrangement could permanently overturn that divine gift.</p><p>For priests and religious in Vidarbha, this distinction matters enormously. Much of what the Church does in this region is excellent charitable work — food, education, health care. But the Jubilee asks the more uncomfortable question: are we addressing the structural arrangements that produce poverty and debt? Are we speaking about the lending practices of Sahukars (moneylenders) who charge 36% annual interest? Are we speaking about land alienation affecting Adivasi communities? Are we, in short, being prophetic — or merely pastoral?</p>`},
+{t:'cards',l:'The Four Vidarbha Realities and the Jubilee Response',items:[
+{ic:'🌧️',ti:'Climate and Crop Failure',b:'Cotton — Vidarbha\'s primary cash crop — requires 700-800mm of rainfall but is increasingly subject to irregular monsoons. The debt cycle begins when a crop fails. <strong>Jubilee response:</strong> Support crop diversification, organic farming initiatives, and water harvesting — the land\'s "rest" principle applied to soil health.'},
+{ic:'💸',ti:'The Moneylender Cycle',b:'Informal credit at 24-36% annual interest remains the primary source of agricultural finance for small and marginal farmers who lack collateral for institutional loans. <strong>Jubilee response:</strong> Promotion of Self-Help Groups (SHGs), advocacy for Jan Dhan bank accounts, and support for cooperative credit societies.'},
+{ic:'📋',ti:'Land Alienation of Adivasis',b:'The Forest Rights Act 2006 gives Adivasi communities the right to forest land they have historically cultivated, but implementation remains deeply contested in Maharashtra. <strong>Jubilee response:</strong> Legal literacy programmes, support for Gram Sabha resolutions, accompaniment of Adivasi families through the Forest Rights process.'},
+{ic:'👩',ti:'Women Farmers',b:'60% of agricultural labour in India is performed by women, but less than 12% of farmland is legally owned by women. Widows of farmers who have died by suicide face particular vulnerability — both economic and social. <strong>Jubilee response:</strong> Ensure that government compensation and legal assistance reaches widows; advocate for joint pattas (land titles).'},
+]},
+{t:'verse',label:'Leviticus 25:35-37 — The Sin of Usury',tx:'"If any of your kin fall into difficulty and become dependent on you, you shall support them; they shall live with you as though resident aliens. Do not take interest in advance or otherwise make a profit from them, but fear your God; let them live with you. You shall not lend them your money at interest taken in advance."',ref:'— Leviticus 25:35-37. The prohibition on charging interest to a fellow member of the covenant community is directly applicable to the moneylending systems that drive farmer indebtedness in India today.'},
+{t:'india',tx:`<strong>The Khamgaon Context:</strong> Khamgaon town in Buldhana district is a cotton trading centre. The surrounding villages depend primarily on cotton cultivation on black soil (<em>kali mitti</em>). The district has been affected by the farmer crisis, with suicides concentrated among small and marginal farmers (holdings below 2 hectares) who are most vulnerable to price volatility and debt. The Banjara (<em>Lamani</em>) community — a Scheduled Tribe numerically significant in Buldhana — faces particular discrimination: exclusion from mainstream credit systems, lower literacy rates, and historical land alienation. For St Ann's Sisters serving in this context, the Jubilee is not a theme. It is the ground under their feet.`},
+{t:'practical',tx:`<strong>Concrete Jubilee Actions — Pastoral and Prophetic:</strong><br>
+<strong>For Parishes:</strong> This Jubilee year, identify three families in your parish caught in the debt-moneylender cycle. Connect them to the nearest Self-Help Group or Gramin Bank. This is a direct Jubilee act.<br>
+<strong>For Congregations:</strong> If your congregation runs a school or hospital with excess funds, consider establishing a small revolving credit fund for marginal farmers in your catchment area — interest-free or at institutional rates. This is <em>shemitah</em> in practice.<br>
+<strong>For Priests:</strong> Preach specifically about the structural causes of farmer suicide. Name the role of moneylenders, cotton price policy, and inadequate crop insurance. The prophetic tradition is not afraid to name structural sin.`},
+]},
 
-<!-- Slide 8: Patristic Development -->
-<div class="slide">
-    <div class="slide-number">8/25</div>
-    <h1>Patristic Development: Spiritualizing the Jubilee</h1>
-    
-    <h2>Key Church Fathers and Their Contributions</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <strong>Origen (185-254):</strong> Emphasized allegorical interpretation, seeing true Jubilee as liberation of the soul from sin
-        </div>
-        <div class="timeline-item">
-            <strong>St. Augustine (354-430):</strong> Highlighted Christological fulfillment. World as "debtors" to God, forgiveness through Christ as ultimate Jubilee
-        </div>
-        <div class="timeline-item">
-            <strong>John Chrysostom (349-407):</strong> Focused on social justice implications, true Jubilee includes care for poor and oppressed
-        </div>
-        <div class="timeline-item">
-            <strong>St. Jerome (347-420):</strong> Textual and historical analysis, Jubilee trumpet announces God's eternal mercy
-        </div>
-    </div>
-    
-    <h2>Patristic Synthesis</h2>
-    <div class="chart-container">
-        <canvas id="patristicChart"></canvas>
-    </div>
-    
-    <h2>The Eucharist as Ongoing Jubilee</h2>
-    <div class="modern-application">
-        <strong>Theological Development:</strong> The Mass became understood as a foretaste of the heavenly banquet, a constant renewal of God's covenant and mercy, a spiritual "reset" available to all believers.
-    </div>
-    
-    <script>
-        const ctx3 = document.getElementById('patristicChart').getContext('2d');
-        new Chart(ctx3, {
-            type: 'radar',
-            data: {
-                labels: ['Christological Fulfillment', 'Spiritual Interpretation', 'Social Justice', 'Sacramental Life', 'Eschatological Hope'],
-                datasets: [{
-                    label: 'Patristic Emphasis',
-                    data: [95, 90, 75, 85, 80],
-                    backgroundColor: 'rgba(52, 152, 219, 0.2)',
-                    borderColor: '#3498db',
-                    borderWidth: 3,
-                    pointBackgroundColor: '#3498db',
-                    pointBorderColor: '#fff',
-                    pointHoverBackgroundColor: '#fff',
-                    pointHoverBorderColor: '#3498db'
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                scales: {
-                    r: {
-                        beginAtZero: true,
-                        max: 100
-                    }
-                },
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Patristic Theological Emphases in Jubilee Development'
-                    }
-                }
-            }
-        });
-    </script>
-</div>
+// ===================== SESSION 5 =====================
+{id:'s5',num:'05',icon:'🏛️',
+nm:'History of Catholic Jubilees — From 1300 to Francis',
+sb:'How the Church Has Used the Jubilee Tradition Across 700 Years',
+c:'#5a3a0a',dk:'#3a2000',pl:'#fdf8f0',
+tags:['Pope Boniface VIII','1300','Holy Door','Great Jubilee 2000','Extraordinary Jubilee 2015'],
+prev:'The Catholic Jubilee tradition began in 1300 and has developed through 27 Holy Years. Understanding this history helps priests and religious see how the Church has used the Jubilee to call for renewal, reconciliation, and structural reform.',
+ct:[
+{t:'tl',l:'The History of Catholic Holy Years',items:[
+{d:'1300 — Boniface VIII',tx:'<strong>First Catholic Jubilee:</strong> Bull <em>Antiquorum habet fida relatio</em>. Originally conceived as a centennial event with plenary indulgence for pilgrims to Rome. An estimated 200,000 pilgrims came. Dante Alighieri was present.'},
+{d:'1350 — Clement VI',tx:'<strong>Reduced to 50 years</strong> following the Black Death (which killed 30-50% of Europe\'s population). The Jubilee became a response to collective trauma and the need for hope after mass death.'},
+{d:'1390-1390s',tx:'<strong>Urban VI and Boniface IX</strong> experimented with 33-year cycles (the years of Christ\'s life). The 25-year cycle was finally established in 1425 by Martin V — close enough to a generation that most people could experience one Jubilee in their lifetime.'},
+{d:'2000 — John Paul II',tx:'<strong>The Great Jubilee:</strong> 25 million pilgrims. Three great acts of ecclesial confession: asking forgiveness for the sins of Catholics in history (the Inquisition, the forced conversion of Indigenous peoples, the persecution of Jews). John Paul\'s Jubilee was marked by its willingness to examine the Church\'s own record.'},
+{d:'2015-2016 — Francis',tx:'<strong>Extraordinary Jubilee of Mercy:</strong> For the first time, Holy Doors opened not only in Rome but in every diocese globally — including in India. The emphasis: God\'s mercy is not a distant event accessible only to those who can travel to Rome. It is available in every local church, to every person who cannot travel.'},
+{d:'2025 — Francis',tx:'<strong>Jubilee of Pilgrims of Hope:</strong> <em>Spes non confundit.</em> Opening of the Holy Door on 24 December 2024. Four special Holy Doors opened in Rome: St Peter\'s Basilica, St John Lateran, St Mary Major, and — in a striking choice — the Holy Door at the Regina Caeli prison in Rome. The last is a direct reference to Luke 4: "proclaim liberty to the captives."'},
+]},
+{t:'india',tx:`<strong>The Jubilee in the Indian Church:</strong> During the Extraordinary Jubilee of Mercy (2015-16), Pope Francis permitted every diocese to designate a "Church of Mercy" where the indulgence could be gained. In India, dioceses across the country designated local churches — including rural churches accessible to people who could never travel to Rome. This decentralisation of the Jubilee is profoundly significant for the Indian Church: it says that God's mercy is not geographically privileged, not reserved for those with the resources to travel. The Dalit Christian in rural Maharashtra has access to the same Jubilee grace as a wealthy pilgrim in Rome.`},
+{t:'prose',l:'The Holy Door — Theology for Indian Christians',tx:`<p>The Holy Door opened by the Pope at St Peter's Basilica is a symbol that requires careful theological unpacking for Indian Catholics, for whom "door" carries rich resonances. The Holy Door is opened as a sign that Christ himself is the door: "I am the gate; whoever enters through me will be saved" (John 10:9). It is not a magical portal. It is a symbol of the always-open access that Christ's paschal mystery provides to the Father.</p><p>For priests and religious in India, a more resonant image may be found in the Indian tradition of the <em>tirtha</em> — the crossing-place, the ford — where the distance between the human and the divine is least. Every Jubilee — every genuine act of conversion and mercy — is a <em>tirtha</em>, a crossing. This inculturation of the Jubilee symbol is not a compromise of its meaning. It is an enrichment of it.</p>`},
+]},
 
-<!-- Slide 9: Medieval Papal Jubilees - Origins -->
-<div class="slide">
-    <div class="slide-number">9/25</div>
-    <h1>Medieval Papal Jubilees: Origins and Evolution</h1>
-    
-    <h2>First Holy Year (1300) - Pope Boniface VIII</h2>
-    <div class="biblical-reference">
-        <strong>Bull:</strong> "Antiquorum habet fida relatio" - February 22, 1300
-    </div>
-    
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">200K</div>
-            <div class="stat-label">Estimated Pilgrims<br>First Jubilee 1300</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">100</div>
-            <div class="stat-label">Years Original Cycle<br>Centennial Celebration</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">2</div>
-            <div class="stat-label">Major Basilicas<br>St. Peter's & St. Paul's</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">1</div>
-            <div class="stat-label">Plenary Indulgence<br>Complete remission</div>
-        </div>
-    </div>
-    
-    <h2>Evolution of Frequency</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <strong>1300 (Boniface VIII):</strong> Every 100 years - Centennial celebration
-        </div>
-        <div class="timeline-item">
-            <strong>1350 (Clement VI):</strong> Reduced to 50 years - Following biblical pattern
-        </div>
-        <div class="timeline-item">
-            <strong>1390 (Urban VI):</strong> Briefly 33 years - Based on Christ's earthly life
-        </div>
-        <div class="timeline-item">
-            <strong>1425 (Martin V):</strong> Established 25-year standard - Regular pastoral opportunity
-        </div>
-    </div>
-    
-    <h2>Key Elements of Medieval Jubilees</h2>
-    <table>
-        <tr>
-            <th>Element</th>
-            <th>Purpose</th>
-            <th>Spiritual Significance</th>
-        </tr>
-        <tr>
-            <td>Pilgrimage to Rome</td>
-            <td>Physical journey of faith</td>
-            <td>Interior conversion through exterior journey</td>
-        </tr>
-        <tr>
-            <td>Plenary Indulgence</td>
-            <td>Remission of temporal punishment</td>
-            <td>Complete spiritual renewal</td>
-        </tr>
-        <tr>
-            <td>Confession & Communion</td>
-            <td>Sacramental preparation</td>
-            <td>Reconciliation with God and Church</td>
-        </tr>
-        <tr>
-            <td>Holy Door Opening</td>
-            <td>Symbolic entrance</td>
-            <td>Christ as the Door to salvation</td>
-        </tr>
-    </table>
-</div>
+// ===================== SESSION 6 =====================
+{id:'s6',num:'06',icon:'⛓️',
+nm:'Caste, Dalit Dignity, and the Jubilee of Liberation',
+sb:'The Most Urgent Jubilee Application in the Indian Church',
+c:'#6b1a1a',dk:'#4a0000',pl:'#fff0f0',
+tags:['Dalit','Caste','Discrimination','Ambedkar','Untouchability','Social Justice'],
+prev:'If Jubilee means anything in India, it must mean the liberation of the 201 million Dalits who continue to face structural discrimination, including within the Catholic Church itself. This is the Jubilee that cannot be postponed.',
+ct:[
+{t:'prose',l:'Caste — The Structural Sin the Church Must Name',tx:`<p>India has approximately 201 million Dalits (Scheduled Castes) and 104 million Adivasis (Scheduled Tribes) — together about 25% of the population. Despite constitutional protections (Article 17 abolishing untouchability; the SC/ST Prevention of Atrocities Act 1989 and its 2015 amendment), caste discrimination remains structurally embedded in Indian society and, with painful honesty we must admit, within segments of the Catholic Church in India.</p><p>The data is available and honest study demands we face it: separate seating in churches in some dioceses, separate cemeteries, reluctance of upper-caste Catholic families to accept Dalit sons- and daughters-in-law, de facto exclusion of Dalit Catholics from parish leadership in some regions, and the persistent denial of SC reservation benefits to Dalit Catholics and Dalit Muslims by the Constitution (Article 341 reserves SC benefits only for those professing Hinduism, Sikhism, or Buddhism — a provision that has never been extended to Christianity or Islam despite decades of advocacy).</p><p>The Jubilee of Jesus — "to proclaim liberty to the captives, to set at liberty those who are oppressed" (Luke 4:18) — cannot be proclaimed by a Church that tolerates caste-based oppression within its own life. The prophetic has to begin at home.</p>`},
+{t:'verse',label:'The Foundational Text for Dalit Jubilee',tx:'"There is neither Jew nor Greek, there is neither slave nor free, there is neither male nor female, for you are all one in Christ Jesus."',ref:'— Galatians 3:28. This was the text on which B.R. Ambedkar commented extensively — not as a Christian, but as someone who saw in the Church the possibility of genuine social equality that caste Hinduism denied. The Church has not yet fully lived up to Ambedkar\'s hope.'},
+{t:'cards',l:'Four Dimensions of Caste in the Indian Church',items:[
+{ic:'⛪',ti:'Within the Church',b:'Separate cemeteries for "higher" and "lower" caste Catholics still exist in parts of Tamil Nadu, Kerala, and Andhra Pradesh. Parish councils in caste-dominant regions are often led by upper-caste Catholics. Dalit priests face discrimination in some dioceses. <strong>Jubilee demand:</strong> A diocesan audit of caste practices and a public commitment to their elimination.'},
+{ic:'🏛️',ti:'SC Reservation — A Justice Issue',b:'Dalit Christians and Dalit Muslims are denied the Scheduled Caste reservations that Hindu, Sikh, and Buddhist Dalits receive under Article 341 of the Constitution. This costs Dalit Christian families access to government jobs, educational reservations, and welfare programmes. The Catholic Bishops\' Conference of India (CBCI) has advocated for extension of SC benefits to Dalit Christians — but the legal battle remains unresolved. <strong>Jubilee demand:</strong> Active parish-level advocacy for this constitutional amendment.'},
+{ic:'⚖️',ti:'Atrocity Prevention',b:'Under the SC/ST (Prevention of Atrocities) Act, any caste-based humiliation, violence, or discrimination is a cognisable offence. Yet reporting rates are low and conviction rates are abysmally poor (conviction rate in SC/ST cases is approximately 27%). <strong>Jubilee demand:</strong> Religious congregations providing legal literacy to Dalit communities on the Atrocities Act.'},
+{ic:'🙋',ti:'Dalit Theology',b:'Fr. Arvind Nirmal developed "Dalit Theology" as a reading of the Gospel from the perspective of the broken and the excluded — the <em>anawim</em> of India. Jesus, born in a manger (a place of social exclusion), dying outside the city wall (excluded from respectable society), is the Dalit-God. This is not mere social analysis. It is Christology.'},
+]},
+{t:'challenge',tx:`<strong>The Challenge: When the Jubilee Is Unwelcome in the Church Itself:</strong> Priests and nuns who speak about caste discrimination within the Church face real institutional resistance. Upper-caste parishioners, benefactors, and sometimes senior clergy resist the prophetic word. This is not new. Amos was told to go home; Jeremiah was thrown into a cistern; Jesus was thrown out of the Nazareth synagogue after his Jubilee proclamation. The pattern is consistent: the Jubilee is always welcomed in the abstract and resisted in the particular. The priest or nun who names specific caste practices in specific parishes is doing the work of the prophets. This requires courage, support from community, and a strong prayer life.`},
+{t:'india',tx:`<strong>B.R. Ambedkar and the Church:</strong> Dr B.R. Ambedkar, the principal architect of the Indian Constitution and the champion of Dalit rights, studied the world's religions extensively before leading 600,000 Dalits in a mass conversion to Buddhism in October 1956 (Nagpur, Maharashtra — not far from Khamgaon). He had seriously considered Christianity. His rejection was based in significant part on what he observed of caste practice within Indian Christianity. The Church's Jubilee proclamation in 2025 must include honest repentance for the caste structures that have persisted within it — and a genuine commitment to the Jubilee that Ambedkar sought and did not fully find.`},
+]},
 
-<!-- Slide 10: Modern Papal Jubilees -->
-<div class="slide">
-    <div class="slide-number">10/25</div>
-    <h1>Modern Papal Jubilees: 20th-21st Century</h1>
-    
-    <h2>Great Jubilee of 2000 - Pope John Paul II</h2>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">25M</div>
-            <div class="stat-label">Pilgrims to Rome<br>Record attendance</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">1.2B</div>
-            <div class="stat-label">Catholics Worldwide<br>Global participation</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">160</div>
-            <div class="stat-label">Countries<br>Debt relief advocacy</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">4</div>
-            <div class="stat-label">Holy Doors<br>Major basilicas</div>
-        </div>
-    </div>
-    
-    <h2>Key Themes and Innovations</h2>
-    <div class="chart-container">
-        <canvas id="modernJubileeChart"></canvas>
-    </div>
-    
-    <h2>Extraordinary Jubilee of Mercy (2015-2016) - Pope Francis</h2>
-    <div class="modern-application">
-        <strong>Revolutionary Approach:</strong> Doors of Mercy opened in dioceses worldwide, not just Rome. Emphasized corporal and spiritual works of mercy. Sent out "Missionaries of Mercy" to parishes globally.
-    </div>
-    
-    <div class="timeline">
-        <div class="timeline-item">
-            <strong>Global Reach:</strong> Over 1,000 Doors of Mercy opened worldwide
-        </div>
-        <div class="timeline-item">
-            <strong>Pastoral Focus:</strong> Emphasis on encountering God's healing love
-        </div>
-        <div class="timeline-item">
-            <strong>Social Justice:</strong> Concrete acts of mercy and charity
-        </div>
-        <div class="timeline-item">
-            <strong>Inclusion:</strong> Special attention to marginalized and suffering
-        </div>
-    </div>
-    
-    <script>
-        const ctx4 = document.getElementById('modernJubileeChart').getContext('2d');
-        new Chart(ctx4, {
-            type: 'line',
-            data: {
-                labels: ['1975', '1983', '2000', '2015-16', '2025'],
-                datasets: [{
-                    label: 'Global Participation (Millions)',
-                    data: [5, 8, 25, 15, 30],
-                    borderColor: '#3498db',
-                    backgroundColor: 'rgba(52, 152, 219, 0.1)',
-                    borderWidth: 3,
-                    fill: true
-                }, {
-                    label: 'Doors of Mercy/Holy Doors',
-                    data: [4, 4, 4, 1000, 1200],
-                    borderColor: '#e74c3c',
-                    backgroundColor: 'rgba(231, 76, 60, 0.1)',
-                    borderWidth: 3,
-                    fill: true
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Evolution of Modern Jubilee Participation and Accessibility'
-                    }
-                },
-                scales: {
-                    y: {
-                        beginAtZero: true
-                    }
-                }
-            }
-        });
-    </script>
-</div>
+// ===================== SESSION 7 =====================
+{id:'s7',num:'07',icon:'🌿',
+nm:'Creation, Ecology, and the Jubilee of the Earth',
+sb:'Laudato Si, Laudato Deum, and the Land-Rest Principle in India',
+c:'#1a4a2e',dk:'#0a2a18',pl:'#f0faf4',
+tags:['Laudato Si','Laudato Deum','Creation Care','Sundarbans','Vidarbha Water Crisis','Integral Ecology'],
+prev:'The land-rest principle of Leviticus 25 is perhaps Jubilee\'s most urgent application in 21st-century India. The environmental crisis in Maharashtra — depleted aquifers, failing cotton crops, deforestation — is simultaneously an ecological and a theological crisis.',
+ct:[
+{t:'prose',l:'The Jubilee and Integral Ecology',tx:`<p>Pope Francis's <em>Laudato Si</em> (2015) and <em>Laudato Deum</em> (2023) develop the Jubilee principle of land-rest into a comprehensive theology of integral ecology. The key insight: the ecological crisis and the social crisis are the same crisis. The exploitation of the poor and the exploitation of the earth have the same root — the reduction of persons and creation to objects to be used for profit.</p><p>In Maharashtra, this convergence is visible with terrible clarity. The same forces that push farmers into the debt cycle — corporate seed companies (BT Cotton requiring expensive pesticides), volatile market prices set by commodity traders, water-intensive monoculture — are also degrading the land. The black soil of Vidarbha, which has sustained farming for millennia, is being depleted by chemical-intensive cotton cultivation. The Wainganga river system is under severe stress. Groundwater levels in Buldhana and Amravati districts have dropped alarmingly.</p><p>The Jubilee principle of the fallow year — letting the land rest — is agronomic wisdom as well as theological mandate. "The land shall observe a sabbath of complete rest" (Leviticus 25:4). This is not poetry. It is a prescription against the exhaustion of creation for short-term profit.</p>`},
+{t:'verse',label:'The Cosmic Scope of the Jubilee',tx:'"The creation itself will be set free from its bondage to decay and will obtain the freedom of the glory of the children of God. We know that the whole creation has been groaning in labour pains until now."',ref:'— Romans 8:21-22. Paul extends the Jubilee hope to the whole creation. Ecological restoration is not separate from Christian hope — it is part of it.'},
+{t:'cards',l:'Ecological Challenges for Priests and Religious in India',items:[
+{ic:'💧',ti:'The Water Crisis',b:'India has 18% of the world\'s population but only 4% of its freshwater. Maharashtra\'s drought-prone districts (Marathwada, Vidarbha) face regular water scarcity. <strong>Jubilee action:</strong> Every church compound, school, and convent should have a water harvesting system. This is not an optional extra. It is a Jubilee act.'},
+{ic:'🌳',ti:'Deforestation and Adivasi Rights',b:'The Forest Rights Act 2006 sought to recognise the rights of Adivasi communities who have lived in forest land for generations. Implementation in Maharashtra has been contested, with the Forest Department still seeking to evict communities whose claims have not been processed. <strong>Jubilee action:</strong> Accompany Adivasi communities through the FRA claims process.'},
+{ic:'🌱',ti:'Natural Farming',b:'The Government of India\'s ZBNF (Zero Budget Natural Farming) initiative, championed by Subhash Palekar (from Amravati, Vidarbha), promotes chemical-free farming using local resources. Several congregations in Maharashtra have begun ZBNF on their agricultural land. <strong>Jubilee action:</strong> Promote ZBNF through parish groups and school programmes.'},
+{ic:'☀️',ti:'Energy and Carbon Footprint',b:'The Church in India operates thousands of institutions — schools, hospitals, convents, seminaries — with significant energy consumption. <strong>Jubilee action:</strong> Each institution should have a plan to move to solar energy within the Jubilee decade. Many congregations have already begun. All should.'},
+]},
+{t:'india',tx:`<strong>Vidarbha's Ecological Crisis is a Jubilee Crisis:</strong> The cotton monoculture of Vidarbha is, in the language of Leviticus 25, a violation of the land-rest principle. The soil has not been allowed to rest. It has been worked relentlessly with chemical inputs, depleting its natural fertility and requiring ever-greater chemical investment for the same yield. This is the treadmill on which the farmer is trapped — and it is simultaneously an economic trap and an ecological catastrophe. The missionary congregation that teaches organic farming, promotes crop diversification, and advocates for sustainable agriculture is doing Jubilee work — naming and addressing the structural sin of creation exploitation.`},
+]},
 
+// ===================== SESSION 8 =====================
+{id:'s8',num:'08',icon:'⚖️',
+nm:'Political and Social Challenges for the Church in India',
+sb:'Anti-Conversion Laws, Shrinking Space, and the Witness of Hope',
+c:'#1e2d5a',dk:'#0d1a38',pl:'#eef2ff',
+tags:['Anti-Conversion Laws','Article 30','CAA','NRC','Religious Freedom','Constitution of India'],
+prev:'The political and social context in which priests and nuns minister in India has changed significantly in the past decade. Naming these challenges honestly — without either fear or naivety — is essential for a clear-eyed Jubilee ministry.',
+ct:[
+{t:'prose',l:'The Constitutional Framework — India\'s Gift and Promise',tx:`<p>The Constitution of India provides a robust framework for religious freedom and minority rights. Article 25 guarantees freedom of conscience and the free profession, practice, and propagation of religion. Article 26 guarantees minority communities the right to manage their own religious affairs. Article 30 guarantees linguistic and religious minorities the right to establish and administer educational institutions. These are not small provisions. They are constitutional bedrock, secured through the sacrifices of the freedom movement and the wisdom of the Constituent Assembly chaired by Ambedkar.</p><p>Priests and religious in India must know these provisions — not as lawyers, but as citizens and as stewards of the communities they serve. When a school is threatened, when a Christian medical facility faces pressure, when a priest is falsely accused — the Constitution is the first line of defence. Christian legal bodies (the Catholic Legal Cell, the Alliance Defending Freedom India) exist to help. They need to be known and used.</p>`},
+{t:'challenge',tx:`<strong>Anti-Conversion Laws — A Major Pastoral Challenge:</strong> As of 2025, nine states have enacted "Freedom of Religion Acts" — Odisha (1967), Madhya Pradesh (1968, amended 2021), Arunachal Pradesh (1978), Chhattisgarh (2000), Gujarat (2003, amended 2021), Himachal Pradesh (2006, amended 2019), Jharkhand (2017), Uttarakhand (2018, amended 2022), and Uttar Pradesh (2021). These laws require prior state permission before a person can convert from one religion to another and criminalise conversion by "force, fraud, or inducement." In practice, these laws have been applied asymmetrically: conversions to Christianity are investigated and prosecuted; conversions from minority religions to Hinduism (<em>ghar wapsi</em>) are not. The challenge for priests: how do you conduct baptism preparation, accompany people on their journey of faith, and celebrate the sacrament of initiation in a legal and ecclesiastically responsible way in these states?`},
+{t:'cards',l:'Specific Challenges for Priests and Religious in India',items:[
+{ic:'📋',ti:'False FIR Filings',b:'The filing of First Information Reports (FIRs) under anti-conversion laws, anti-cow slaughter laws, or the SC/ST Atrocities Act (sometimes used against Christians falsely accused of "insulting Hindu religion") has become a tool of harassment. <strong>Response:</strong> Every diocese and congregation should have a legal response plan. Know your local Catholic Legal Cell contacts. Do not face legal harassment alone.'},
+{ic:'🏫',ti:'Pressure on Minority Institutions',b:'Article 30 protects minority educational institutions, but implementing this right faces regular legal challenges. Schools run by congregations face pressure regarding admissions quotas, curriculum control, and RTE (Right to Education Act) requirements. <strong>Response:</strong> Ensure your institution is properly registered, your Article 30 status is documented, and you have legal counsel.'},
+{ic:'📢',ti:'Hate Speech and Social Media',b:'Anti-Christian hate speech on social media platforms has increased significantly. False viral videos (e.g., "forced conversion" claims based on misrepresented footage of retreats or prayer meetings) can trigger local violence. <strong>Response:</strong> Document all ministry activities. Keep photo and video records of baptism preparation, consent forms, free choice declarations. Transparency is the best protection.'},
+{ic:'🤝',ti:'Interfaith Relations',b:'In Maharashtra, relations between Catholics and the Hindu majority are generally positive — the Church\'s educational and healthcare institutions have deep community roots. But the political climate has made proactive interfaith relationship-building more important than ever. <strong>Response:</strong> The priest and religious who is personally known and trusted by Hindu neighbours, local RSS workers, and village pradhan is the best protection against communal tension.'},
+]},
+{t:'prose',l:'The Prophetic Voice Without Fear — The Legacy of Indian Martyrs',tx:`<p>The Jubilee is a year of freedom — including freedom from the fear that silences prophetic witness. India has its own martyrs who model this freedom: Fr Graham Staines, murdered with his two sons Philip and Timothy in Odisha in 1999. The Kandhamal Christians of Odisha who faced violence in 2008 and refused to renounce their faith. Fr Tom Uzhunnalil, kidnapped in Yemen in 2016 and held for 18 months. The sisters of Mother Teresa's congregation who have continued to serve in the most dangerous and marginalised contexts.</p><p>The prophetic tradition does not require a death wish. It requires a truthfulness that cannot be silenced by threat. Priests and religious in India who continue to serve, who continue to speak the truth, who continue to accompany the marginalised — even when this makes them targets — are in a long line of witnesses. The Jubilee calls us to renew our courage, not to amplify our caution.</p>`},
+{t:'india',tx:`<strong>The Maharashtra Context:</strong> Maharashtra has historically been more religiously plural and tolerant than many other states. The tradition of social reform — from the Peshwa-era Dalit reformers, to Jyotirao Phule and Savitribai Phule's work for Dalit and women's education in the 19th century, to Ambedkar's Constitution — gives Maharashtra a unique intellectual and civic heritage. The Church in Maharashtra has deep historical roots (Portuguese-era Christianity on the Konkan coast; the strong educational presence of congregations like the De Nobili School system, the Don Bosco network, and the Sisters of St Ann). This heritage is a resource. It builds relationships of mutual respect and common purpose that are the best foundation for navigating a politically challenging environment.`},
+]},
 
+// ===================== SESSION 9 =====================
+{id:'s9',num:'09',icon:'👩‍🦱',
+nm:'Women Religious — Jubilee, Identity, and the Challenges Ahead',
+sb:'The Specific Vocation of Sisters in the Indian Church Today',
+c:'#6b3a8a',dk:'#4a1a68',pl:'#f8f0ff',
+tags:['Women Religious','Consecrated Life','Gender','Sister Formation','Vulnerability'],
+prev:'Women religious — sisters and nuns — form the largest single group of consecrated persons in the Indian Church. Their vocation, their specific challenges, and the Jubilee\'s particular call to them deserve careful attention.',
+ct:[
+{t:'prose',l:'The Scale and Significance of Women Religious in India',tx:`<p>India has approximately 100,000 women religious — the largest number of Catholic sisters in Asia. They staff a significant proportion of India's Catholic hospitals, schools, orphanages, and social work centres. In many rural areas, the sister is the first point of contact between the Church and the community — more accessible, more present, and often more trusted than the parish priest. This is not a supporting role. It is a central vocation in the mission of the Church.</p><p>Pope Francis has spoken repeatedly about the problem of "feminism of servitude" — the tendency within Church structures to use women religious as a labour force while denying them genuine authority, decision-making power, and theological voice. The Jubilee is a moment to address this: not with ideological agendas from outside, but from within the tradition, drawing on the Gospel's own counter-cultural treatment of women (the women at the tomb as the first witnesses of the Resurrection; Mary of Magdala as "apostle to the apostles"; Martha's confession of Christ as the Son of God in John 11).</p>`},
+{t:'cards',l:'Specific Challenges for Indian Sisters in 2025',items:[
+{ic:'⚡',ti:'Canonical Invisibility',b:'Sisters who run major institutions — schools of 3,000 students, hospitals of 500 beds — often have no canonical decision-making authority in the diocese. The diocesan pastoral council may have no women religious representation. <strong>Jubilee demand:</strong> Congregational leaders should advocate actively for genuine representation of women religious in diocesan structures.'},
+{ic:'😔',ti:'Mental Health and Burnout',b:'The unprecedented demand placed on sisters — who run institutions, do pastoral work, live in community, maintain prayer life, and often manage institutional finances — without adequate support systems has produced a largely unspoken mental health crisis. <strong>Jubilee response:</strong> Congregations must take seriously the internal provision of professional psychological support and adequate recreation, rest, and sabbatical leave.'},
+{ic:'🛡️',ti:'Protection from Abuse',b:'The #MeToo movement within religious life globally, and several specific cases in India (including high-profile cases involving clergy and bishops), has made the vulnerability of women religious to abuse within Church structures undeniable. <strong>Jubilee demand:</strong> Clear internal protocols for reporting, independent investigation, and institutional accountability — not just for external abuse, but for abuse within Church structures.'},
+{ic:'📚',ti:'Theological Formation',b:'Sisters who run educational and medical institutions need genuine theological formation at the level of their professional competence — not devotional formation, but serious academic theology that gives them the intellectual tools to articulate the mission they are living. <strong>Jubilee opportunity:</strong> Invest in advanced theological education for sisters, including STL-level programmes.'},
+]},
+{t:'verse',label:'Mary Magdalene — Apostle to the Apostles',tx:'"Jesus said to her, \'Do not hold on to me, because I have not yet ascended to the Father. But go to my brothers and say to them, I am ascending to my Father and your Father, to my God and your God.\' Mary Magdalene went and announced to the disciples, \'I have seen the Lord.\'"',ref:'— John 20:17-18. The first proclamation of the Resurrection was entrusted to a woman. This is the theological foundation of women\'s prophetic voice in the Church.'},
+{t:'india',tx:`<strong>The Indian Nun in Tribal and Dalit Communities:</strong> In Maharashtra's tribal districts — Gadchiroli, Nandurbar, Yavatmal — sisters of congregations like the Franciscan Sisters, the Sisters of the Presentation, and the Sisters of Charity have worked for decades in remote communities. They have learned local languages, established health posts, run literacy programmes, and accompanied communities through drought, conflict, and displacement. This ministry is often invisible to the diocesan and national Church. The Jubilee year is an opportunity to make it visible — not for the sisters' sake, but so that the whole Church can learn from it.`},
+{t:'challenge',tx:`<strong>The Challenge of Vocation Crisis:</strong> Religious vocations to women's congregations in India, while still numerically significant by global standards, have declined sharply in urban areas and are increasingly concentrated in tribal and rural communities from the Northeast, tribal Maharashtra, and South India. The theological question this raises is profound: is the Spirit moving vocations toward the margins? Is the declining attraction to religious life among educated urban youth a judgement on the institutional model of consecrated life? The Jubilee year is a moment for honest discernment about the form of consecrated life the Spirit is calling forth in India today.`},
+]},
 
-<!-- Slide 11: Pope Francis and the Jubilee 2025 Context -->
-<div class="slide">
-    <div class="slide-number">11/25</div>
-    <h1>Pope Francis and the Jubilee 2025: Context and Vision</h1>
-    
-    <h2>Global Context for "Pilgrims of Hope"</h2>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">6.8M</div>
-            <div class="stat-label">COVID-19 Deaths<br>Global pandemic impact</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">100M</div>
-            <div class="stat-label">Displaced People<br>Wars and conflicts</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">1.1°C</div>
-            <div class="stat-label">Global Warming<br>Climate crisis urgency</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">735M</div>
-            <div class="stat-label">People in Poverty<br>Economic inequality</div>
-        </div>
-    </div>
-    
-    <h2>Pope Francis's Motivations</h2>
-    <div class="chart-container">
-        <canvas id="contextChart"></canvas>
-    </div>
-    
-    <h2>Key Papal Documents</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <strong>Spes non confundit (May 9, 2024):</strong> Bull of Indiction for Jubilee 2025
-        </div>
-        <div class="timeline-item">
-            <strong>Laudato Si' (2015):</strong> Environmental encyclical informing ecological conversion
-        </div>
-        <div class="timeline-item">
-            <strong>Fratelli Tutti (2020):</strong> Social encyclical on fraternity and social friendship
-        </div>
-        <div class="timeline-item">
-            <strong>Evangelii Gaudium (2013):</strong> Apostolic exhortation on joy of the Gospel
-        </div>
-    </div>
-    
-    <div class="quote-box">
-        "The Jubilee reminds us that those who are peacemakers will be called 'children of God' (Mt 5:9). The need for peace challenges us all, and demands that concrete steps be taken." - Pope Francis, Spes non confundit
-    </div>
-    
-    <script>
-        const ctx5 = document.getElementById('contextChart').getContext('2d');
-        new Chart(ctx5, {
-            type: 'polarArea',
-            data: {
-                labels: ['Post-Pandemic Recovery', 'Wars & Conflicts', 'Climate Crisis', 'Economic Inequality', 'Migration Crisis', 'Spiritual Disorientation'],
-                datasets: [{
-                    data: [85, 90, 95, 88, 82, 75],
-                    backgroundColor: [
-                        'rgba(231, 76, 60, 0.7)',
-                        'rgba(155, 89, 182, 0.7)',
-                        'rgba(46, 204, 113, 0.7)',
-                        'rgba(52, 152, 219, 0.7)',
-                        'rgba(243, 156, 18, 0.7)',
-                        'rgba(149, 165, 166, 0.7)'
-                    ],
-                    borderColor: '#fff',
-                    borderWidth: 2
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Global Challenges Intensity (Pope Francis\'s Assessment)'
-                    }
-                },
-                scales: {
-                    r: {
-                        beginAtZero: true,
-                        max: 100
-                    }
-                }
-            }
-        });
-    </script>
-</div>
+// ===================== SESSION 10 =====================
+{id:'s10',num:'10',icon:'✨',
+nm:'Pilgrims of Hope — A Jubilee of Action for Priests and Religious',
+sb:'Practical Commitments for the Jubilee Year and Beyond',
+c:'#b8860b',dk:'#7c5c00',pl:'#fffbeb',
+tags:['Pilgrims of Hope','Practical Commitments','Reconciliation','Mission','Renewal'],
+prev:'The Jubilee ends in January 2026. What will have changed? The test of any Jubilee is not what happens in Rome during the Holy Year. It is what happens in the parishes, schools, hospitals, and convents of Khamgaon, Vidarbha, and across India in the years that follow.',
+ct:[
+{t:'prose',l:'The Jubilee as Kairos — A Moment of Grace',tx:`<p>The Greek word <em>kairos</em> means a decisive, opportune moment — qualitatively different from ordinary time (<em>chronos</em>). Paul uses it for the moment of salvation: "Now is the acceptable time, now is the day of salvation" (2 Corinthians 6:2). The Jubilee is a <em>kairos</em> — not a magical moment, but a moment in which the invitation of God is presented with particular clarity and urgency.</p><p>For priests and religious in India, this <em>kairos</em> has three dimensions:<br>(1) <strong>Personal renewal</strong> — the Jubilee indulgence, the invitation to confession and deeper prayer, the renewal of vows and commitment;<br>(2) <strong>Communal conversion</strong> — the parish, congregation, or institution asking honestly: where have we fallen short of the Jubilee? Where have we tolerated structures of injustice? What changes will we make?;<br>(3) <strong>Prophetic witness</strong> — the Jubilee year as an opportunity to speak clearly about the structural injustices that the Jubilee tradition names: caste, land rights, debt, ecological destruction, religious freedom.</p><p>These three are not alternatives. The priest or religious who is genuinely renewed personally will find the courage for communal and prophetic action. The one who jumps to prophetic action without personal renewal will burn out or become embittered. The Jubilee calls for all three simultaneously.</p>`},
+{t:'steps',l:'Seven Jubilee Commitments for Priests and Religious in India',items:[
+{n:'1',ti:'Jubilee Confession and Spiritual Renewal',bd:'Make the Jubilee confession with genuine intention — not merely as a ritual but as a real engagement with whatever in you has been resistive to God\'s call. What has you spiritually stuck? What unhealed wound from ministry has calcified into cynicism? What relationship within community needs repair? The Spirit who has been "poured into your hearts" (Romans 5:5) is given for precisely this.'},
+{n:'2',ti:'One Dalit or Adivasi Family to Accompany',bd:'Identify one Dalit or Adivasi family in your parish or catchment area who is facing discrimination, debt, or displacement. Accompany them — legally, pastorally, practically — through this Jubilee year. Document what you learn. This is not charity. It is Jubilee.'},
+{n:'3',ti:'A Water Harvest or Tree Planting Initiative',bd:'Every parish, school, or convent should implement one concrete ecological act this Jubilee year. Water harvesting, a community tree plantation, the elimination of single-use plastic, a kitchen garden. The land-rest principle made local and practical.'},
+{n:'4',ti:'Legal Literacy for Your Community',bd:'Organise one legal literacy session for your parishioners or beneficiaries on: (a) SC/ST Atrocities Act; (b) Forest Rights Act; (c) anti-conversion law provisions and how to protect oneself; (d) access to government welfare schemes (PM-KISAN, Jan Dhan, etc.). Knowledge is liberation.'},
+{n:'5',ti:'An Act of Ecumenical or Interfaith Solidarity',bd:'The Jubilee 2025 marks the 1700th anniversary of the Council of Nicaea — a call to Christian unity. In your locality, identify one act of joint witness with other Christian denominations, or one act of genuine service alongside your Hindu or Muslim neighbours. In Khamgaon and Vidarbha, joint work on farmer welfare or disaster relief is the natural context.'},
+{n:'6',ti:'Confession of Caste — Internal Reform',bd:'If your parish or institution has any caste-based practice — separate seating, informal exclusion, differential treatment — name it this Jubilee year. Make a specific, public commitment to end it. This is harder than it sounds. It is also exactly what the prophetic tradition calls for.'},
+{n:'7',ti:'The Jubilee Pilgrim\'s Walk',bd:'The Jubilee tradition calls for pilgrimage — not as tourism but as a spiritual practice of leaving the familiar and encountering God in movement. In the Indian tradition, the <em>wari</em> — the annual pilgrimage of the Warkari community to Pandharpur — offers a model. Organise a day of parish pilgrimage to a local shrine, walking together, praying together, with a specific intention for the Jubilee. The walking itself is the prayer.'},
+]},
+{t:'verse',label:'The Invitation That Does Not Expire',tx:'"Seek the LORD while he may be found, call upon him while he is near; let the wicked forsake their way, and the unrighteous their thoughts; let them return to the LORD, that he may have mercy on them, and to our God, for he will abundantly pardon."',ref:'— Isaiah 55:6-7. The Jubilee invitation is always open. The grace is always there. The Spirit is always being poured. But there are moments — kairos moments — when the invitation is heard with particular urgency. 2025 is such a moment for the Church in India.'},
+{t:'india',tx:`<strong>The Warkari Tradition as a Jubilee Model:</strong> The <em>Warkari Panth</em> — the devotional tradition of pilgrimage to Vitthal at Pandharpur — is one of Maharashtra's greatest spiritual gifts to India. It cuts across caste (Dnyaneshwar was a Brahmin; Chokhamela was a Mahar Dalit; Janabai was a woman servant), bringing together high and low in common prayer and common walking. The abhangas of Tukaram contain some of the most profound poetry in any Indian language about the dignity of the poor, the equality of all before God, and the simplicity that genuine devotion requires. The Jubilee of Hope and the Warkari tradition are speaking the same language. The priest and the nun in Maharashtra who understands this connection will find the Jubilee resonating deeply with the spiritual heritage of the people they serve.`},
+{t:'practical',tx:`<strong>A Final Word — For Those Who Are Tired:</strong> Many priests and nuns who will read these notes have been ministering for years in difficult conditions. Some are tired. Some are discouraged. Some have wondered whether the effort is worth it, whether the Church's witness is credible, whether their own vocation is still alive. The Jubilee speaks directly to this. The ram's horn is blown not when everything is going well. It is blown to announce liberation precisely at the moment of maximum captivity. The Jubilee is for the captive — and sometimes the captive is the one who serves. Hear the shofar. "Hope does not put us to shame." The Spirit who has been poured into your heart is still there, still moving, still calling. The Jubilee is yours.`},
+]},
+];
 
-<!-- Slide 12: Biblical Models of Pilgrims of Hope -->
-<div class="slide">
-    <div class="slide-number">12/25</div>
-    <h1>Biblical Models of Pilgrims of Hope</h1>
-    
-    <h2>Abraham - The Ultimate Pilgrim of Faith</h2>
-    <div class="biblical-reference">
-        <strong>Genesis 12:1:</strong> "Go from your country, your people and your father's household to the land I will show you."
-    </div>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">75</div>
-            <div class="stat-label">Years Old<br>When called by God</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">2000</div>
-            <div class="stat-label">Miles Journey<br>Ur to Canaan</div>
-        </div>
-    </div>
-    
-    <h2>Other Biblical Pilgrims of Hope</h2>
-    <table>
-        <tr>
-            <th>Biblical Figure</th>
-            <th>Journey/Context</th>
-            <th>Hope Demonstrated</th>
-            <th>Modern Application</th>
-        </tr>
-        <tr>
-            <td><strong>Moses & Israelites</strong></td>
-            <td>Exodus from Egypt</td>
-            <td>40 years trusting God's promises</td>
-            <td>Liberation from oppression</td>
-        </tr>
-        <tr>
-            <td><strong>Mary</strong></td>
-            <td>Annunciation & Magnificat</td>
-            <td>Trust in God's plan despite uncertainty</td>
-            <td>Faith in divine providence</td>
-        </tr>
-        <tr>
-            <td><strong>Simeon & Anna</strong></td>
-            <td>Temple waiting</td>
-            <td>Faithful expectation of Messiah</td>
-            <td>Patient hope in God's timing</td>
-        </tr>
-        <tr>
-            <td><strong>Emmaus Disciples</strong></td>
-            <td>Road to Emmaus</td>
-            <td>Hope rekindled by Risen Christ</td>
-            <td>Finding hope in despair</td>
-        </tr>
-    </table>
-    
-    <h2>Characteristics of Biblical Pilgrims</h2>
-    <div class="four-rs">
-        <div class="principle-card" style="background: #2ecc71;">
-            <h4>TRUST</h4>
-            <p>Unwavering faith in God's promises despite circumstances</p>
-        </div>
-        <div class="principle-card" style="background: #2ecc71;">
-            <h4>OBEDIENCE</h4>
-            <p>Willingness to follow God's call even into unknown</p>
-        </div>
-        <div class="principle-card" style="background: #2ecc71;">
-            <h4>PERSEVERANCE</h4>
-            <p>Endurance through trials and setbacks</p>
-        </div>
-        <div class="principle-card" style="background: #2ecc71;">
-            <h4>WITNESS</h4>
-            <p>Sharing hope with others through word and deed</p>
-        </div>
-    </div>
-</div>
-
-<!-- Slide 13: Theological Principles of Jubilee -->
-<div class="slide">
-    <div class="slide-number">13/25</div>
-    <h1>Core Theological Principles of Jubilee</h1>
-    
-    <h2>Divine Sovereignty and Human Stewardship</h2>
-    <div class="chart-container">
-        <canvas id="principlesChart"></canvas>
-    </div>
-    
-    <h2>The Six Pillars of Jubilee Theology</h2>
-    <table>
-        <tr>
-            <th>Principle</th>
-            <th>Biblical Foundation</th>
-            <th>Theological Meaning</th>
-            <th>Contemporary Application</th>
-        </tr>
-        <tr>
-            <td><strong>Divine Sovereignty</strong></td>
-            <td>Leviticus 25:23</td>
-            <td>God owns all creation</td>
-            <td>Environmental stewardship</td>
-        </tr>
-        <tr>
-            <td><strong>Justice & Equity</strong></td>
-            <td>Isaiah 61:1-2</td>
-            <td>Fair distribution of resources</td>
-            <td>Economic justice, debt relief</td>
-        </tr>
-        <tr>
-            <td><strong>Liberation</strong></td>
-            <td>Luke 4:18-19</td>
-            <td>Freedom from all bondage</td>
-            <td>Human rights, prison reform</td>
-        </tr>
-        <tr>
-            <td><strong>Restoration</strong></td>
-            <td>Leviticus 25:10</td>
-            <td>Return to God's design</td>
-            <td>Restorative justice, healing</td>
-        </tr>
-        <tr>
-            <td><strong>Mercy & Forgiveness</strong></td>
-            <td>Romans 5:5</td>
-            <td>God's boundless compassion</td>
-            <td>Reconciliation, amnesty</td>
-        </tr>
-        <tr>
-            <td><strong>Hope</strong></td>
-            <td>1 Peter 3:15</td>
-            <td>Confident expectation</td>
-            <td>Resilience, future orientation</td>
-        </tr>
-    </table>
-    
-    <h2>Effectiveness Across Testaments</h2>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">50%</div>
-            <div class="stat-label">OT Implementation<br>Ideal vs. Practice</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">100%</div>
-            <div class="stat-label">NT Fulfillment<br>In Christ's ministry</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">∞</div>
-            <div class="stat-label">Ongoing Reality<br>Through Holy Spirit</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">2025</div>
-            <div class="stat-label">Current Jubilee<br>Global application</div>
-        </div>
-    </div>
-    
-    <script>
-        const ctx6 = document.getElementById('principlesChart').getContext('2d');
-        new Chart(ctx6, {
-            type: 'bar',
-            data: {
-                labels: ['Divine Sovereignty', 'Justice & Equity', 'Liberation', 'Restoration', 'Mercy & Forgiveness', 'Hope'],
-                datasets: [{
-                    label: 'Old Testament Emphasis',
-                    data: [95, 90, 80, 85, 70, 75],
-                    backgroundColor: 'rgba(52, 152, 219, 0.7)',
-                    borderColor: '#3498db',
-                    borderWidth: 2
-                }, {
-                    label: 'New Testament Fulfillment',
-                    data: [100, 95, 100, 90, 100, 95],
-                    backgroundColor: 'rgba(231, 76, 60, 0.7)',
-                    borderColor: '#e74c3c',
-                    borderWidth: 2
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Theological Principles: OT Foundation vs NT Fulfillment'
-                    }
-                },
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        max: 100,
-                        title: {
-                            display: true,
-                            text: 'Emphasis Level (%)'
-                        }
-                    }
-                }
-            }
-        });
-    </script>
-</div>
-
-<!-- Slide 14: The Role of the Holy Spirit in Jubilee -->
-<div class="slide">
-    <div class="slide-number">14/25</div>
-    <h1>The Indispensable Role of the Holy Spirit</h1>
-    
-    <h2>Romans 5:5 - Foundation of Hope</h2>
-    <div class="quote-box">
-        "Hope does not disappoint, because God's love has been poured into our hearts through the Holy Spirit that has been given to us."
-    </div>
-    
-    <h2>Spirit's Role in Jubilee Dynamism</h2>
-    <div class="chart-container">
-        <canvas id="spiritChart"></canvas>
-    </div>
-    
-    <h2>Pneumatological Dimensions</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <strong>Conviction & Repentance:</strong> Spirit convicts of sin, leads to authentic conversion and reconciliation
-        </div>
-        <div class="timeline-item">
-            <strong>Empowerment for Mission:</strong> Spirit enables believers to be agents of liberation and justice
-        </div>
-        <div class="timeline-item">
-            <strong>Sustaining Hope:</strong> Spirit maintains hope even in trials, transforming suffering into character
-        </div>
-        <div class="timeline-item">
-            <strong>Unity & Communion:</strong> Spirit builds bridges, fosters reconciliation and community
-        </div>
-    </div>
-    
-    <h2>Jesus's Anointing for Jubilee Ministry</h2>
-    <div class="biblical-reference">
-        <strong>Luke 4:18:</strong> "The Spirit of the Lord is upon me, because he has anointed me to proclaim good news to the poor..."
-    </div>
-    
-    <h2>Contemporary Manifestations</h2>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">2.4B</div>
-            <div class="stat-label">Christians Worldwide<br>Spirit-empowered witnesses</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">1000+</div>
-            <div class="stat-label">Charitable Organizations<br>Spirit-inspired works</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">7</div>
-            <div class="stat-label">Gifts of the Spirit<br>For Jubilee ministry</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">∞</div>
-            <div class="stat-label">Divine Love<br>Poured into hearts</div>
-        </div>
-    </div>
-    
-    <script>
-        const ctx7 = document.getElementById('spiritChart').getContext('2d');
-        new Chart(ctx7, {
-            type: 'doughnut',
-            data: {
-                labels: ['Personal Conversion', 'Social Action', 'Sacramental Life', 'Evangelization', 'Intercession'],
-                datasets: [{
-                    data: [25, 20, 20, 20, 15],
-                    backgroundColor: [
-                        '#e74c3c',
-                        '#3498db',
-                        '#2ecc71',
-                        '#f39c12',
-                        '#9b59b6'
-                    ],
-                    borderColor: '#fff',
-                    borderWidth: 3
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Holy Spirit\'s Work in Jubilee Ministry'
-                    },
-                    legend: {
-                        position: 'bottom'
-                    }
-                }
-            }
-        });
-    </script>
-</div>
-
-<!-- Slide 15: The Church as Sacrament of Jubilee -->
-<div class="slide">
-    <div class="slide-number">15/25</div>
-    <h1>The Church as Sacrament of Jubilee</h1>
-    
-    <h2>Ecclesiological Understanding</h2>
-    <div class="modern-application">
-        <strong>Definition:</strong> The Church is called to be a visible and effective sign and instrument of God's mercy, justice, and hope for all humanity - a living sacrament of Jubilee in the world.
-    </div>
-    
-    <h2>Historical Manifestations</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <strong>Early Church (Acts 2:44-45):</strong> Communal sharing of goods, radical economic justice
-        </div>
-        <div class="timeline-item">
-            <strong>Monastic Movement (4th century):</strong> Vows of poverty, communal life, care for poor
-        </div>
-        <div class="timeline-item">
-            <strong>Medieval Period:</strong> Hospitals, universities, charitable institutions
-        </div>
-        <div class="timeline-item">
-            <strong>Modern Era:</strong> Social teaching, liberation theology, environmental advocacy
-        </div>
-    </div>
-    
-    <h2>Contemporary Jubilee Ministries</h2>
-    <div class="chart-container">
-        <canvas id="churchChart"></canvas>
-    </div>
-    
-    <h2>Sacramental Dimensions</h2>
-    <table>
-        <tr>
-            <th>Sacrament</th>
-            <th>Jubilee Connection</th>
-            <th>Liberation Aspect</th>
-        </tr>
-        <tr>
-            <td><strong>Baptism</strong></td>
-            <td>Liberation from sin</td>
-            <td>New life in Christ</td>
-        </tr>
-        <tr>
-            <td><strong>Eucharist</strong></td>
-            <td>Foretaste of heavenly banquet</td>
-            <td>Unity and communion</td>
-        </tr>
-        <tr>
-            <td><strong>Reconciliation</strong></td>
-            <td>Forgiveness and restoration</td>
-            <td>Freedom from guilt</td>
-        </tr>
-        <tr>
-            <td><strong>Confirmation</strong></td>
-            <td>Empowerment for mission</td>
-            <td>Strength for witness</td>
-        </tr>
-    </table>
-    
-    <h2>Global Catholic Charitable Impact</h2>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">26%</div>
-            <div class="stat-label">Global Healthcare<br>Catholic institutions</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">10%</div>
-            <div class="stat-label">Global Education<br>Catholic schools</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">$4.7B</div>
-            <div class="stat-label">Annual Charity<br>Catholic organizations</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">200K</div>
-            <div class="stat-label">Parishes Worldwide<br>Local Jubilee centers</div>
-        </div>
-    </div>
-    
-    <script>
-        const ctx8 = document.getElementById('churchChart').getContext('2d');
-        new Chart(ctx8, {
-            type: 'radar',
-            data: {
-                labels: ['Preaching & Evangelization', 'Sacramental Life', 'Social Teaching', 'Charitable Works', 'Educational Ministry', 'Healthcare Ministry'],
-                datasets: [{
-                    label: 'Church as Jubilee Sacrament',
-                    data: [90, 95, 85, 92, 88, 90],
-                    backgroundColor: 'rgba(46, 204, 113, 0.2)',
-                    borderColor: '#2ecc71',
-                    borderWidth: 3,
-                    pointBackgroundColor: '#2ecc71',
-                    pointBorderColor: '#fff',
-                    pointHoverBackgroundColor: '#fff',
-                    pointHoverBorderColor: '#2ecc71'
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                scales: {
-                    r: {
-                        beginAtZero: true,
-                        max: 100
-                    }
-                },
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Church\'s Sacramental Jubilee Ministry (Effectiveness %)'
-                    }
-                }
-            }
-        });
-    </script>
-</div>
-
-
-<!-- Slide 16: Present Day Significance - Global Challenges -->
-<div class="slide">
-    <div class="slide-number">16/25</div>
-    <h1>Present Day Significance: Addressing Global Challenges</h1>
-    
-    <h2>Economic Inequality and Debt Crisis</h2>
-    <div class="chart-container">
-        <canvas id="inequalityChart"></canvas>
-    </div>
-    
-    <h2>Jubilee Applications to Modern Crises</h2>
-    <table>
-        <tr>
-            <th>Global Challenge</th>
-            <th>Jubilee Principle</th>
-            <th>Concrete Application</th>
-            <th>Expected Impact</th>
-        </tr>
-        <tr>
-            <td><strong>Developing Nation Debt</strong></td>
-            <td>Debt Forgiveness</td>
-            <td>$130B debt relief programs</td>
-            <td>Economic freedom for 64 countries</td>
-        </tr>
-        <tr>
-            <td><strong>Climate Change</strong></td>
-            <td>Land Rest</td>
-            <td>Ecological conversion, renewable energy</td>
-            <td>1.5°C temperature limit achievable</td>
-        </tr>
-        <tr>
-            <td><strong>Mass Incarceration</strong></td>
-            <td>Liberation of Captives</td>
-            <td>Prison reform, amnesty programs</td>
-            <td>2M prisoners eligible for release</td>
-        </tr>
-        <tr>
-            <td><strong>Refugee Crisis</strong></td>
-            <td>Welcome the Stranger</td>
-            <td>Integration programs, legal pathways</td>
-            <td>100M displaced people assisted</td>
-        </tr>
-    </table>
-    
-    <h2>Pope Francis's Specific Calls</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <strong>Debt Relief:</strong> "With money spent on weapons, establish a global fund to end hunger"
-        </div>
-        <div class="timeline-item">
-            <strong>Prisoner Amnesty:</strong> Opening Holy Door in prison as sign of hope and rehabilitation
-        </div>
-        <div class="timeline-item">
-            <strong>Healthcare Access:</strong> Gratitude to healthcare workers, care for vulnerable
-        </div>
-        <div class="timeline-item">
-            <strong>Youth Empowerment:</strong> Preventing despair, providing realistic prospects
-        </div>
-    </div>
-    
-    <h2>Statistical Impact Projections</h2>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">64</div>
-            <div class="stat-label">Countries<br>Eligible for debt relief</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">$130B</div>
-            <div class="stat-label">Total Debt<br>Proposed for forgiveness</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">2M</div>
-            <div class="stat-label">Prisoners<br>Potential amnesty beneficiaries</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">100M</div>
-            <div class="stat-label">Refugees<br>Needing welcome and integration</div>
-        </div>
-    </div>
-    
-    <script>
-        const ctx9 = document.getElementById('inequalityChart').getContext('2d');
-        new Chart(ctx9, {
-            type: 'line',
-            data: {
-                labels: ['1990', '2000', '2010', '2020', '2025 (Projected)'],
-                datasets: [{
-                    label: 'Global Wealth Inequality (Gini Coefficient)',
-                    data: [0.62, 0.65, 0.68, 0.70, 0.68],
-                    borderColor: '#e74c3c',
-                    backgroundColor: 'rgba(231, 76, 60, 0.1)',
-                    borderWidth: 3,
-                    fill: true
-                }, {
-                    label: 'Developing Nation Debt (Trillions USD)',
-                    data: [1.2, 2.1, 4.8, 8.7, 9.2],
-                    borderColor: '#3498db',
-                    backgroundColor: 'rgba(52, 152, 219, 0.1)',
-                    borderWidth: 3,
-                    fill: true
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Global Economic Challenges: Inequality and Debt Crisis'
-                    }
-                },
-                scales: {
-                    y: {
-                        beginAtZero: true
-                    }
-                }
-            }
-        });
-    </script>
-</div>
-
-<!-- Slide 17: Ecological Conversion and Laudato Si' -->
-<div class="slide">
-    <div class="slide-number">17/25</div>
-    <h1>Ecological Conversion: Jubilee for Creation</h1>
-    
-    <h2>Laudato Si' and Jubilee Principles</h2>
-    <div class="quote-box">
-        "The earth is the Lord's and all of us dwell in it as 'aliens and tenants' (Lev 25:23). If we really wish to prepare a path to peace in our world, let us commit ourselves to remedying the remote causes of injustice." - Pope Francis
-    </div>
-    
-    <h2>Climate Crisis Statistics</h2>
-    <div class="chart-container">
-        <canvas id="climateChart"></canvas>
-    </div>
-    
-    <h2>Jubilee Land Rest Applied to Ecology</h2>
-    <div class="four-rs">
-        <div class="principle-card" style="background: #27ae60;">
-            <h4>RESTORATION</h4>
-            <p>Reforestation: 1 billion trees planted annually</p>
-        </div>
-        <div class="principle-card" style="background: #27ae60;">
-            <h4>RELEASE</h4>
-            <p>Carbon emissions: 50% reduction by 2030</p>
-        </div>
-        <div class="principle-card" style="background: #27ae60;">
-            <h4>RENEWAL</h4>
-            <p>Renewable energy: 80% global transition</p>
-        </div>
-        <div class="principle-card" style="background: #27ae60;">
-            <h4>REST</h4>
-            <p>Biodiversity protection: 30% land conservation</p>
-        </div>
-    </div>
-    
-    <h2>Ecological Debt and Justice</h2>
-    <table>
-        <tr>
-            <th>Region</th>
-            <th>Carbon Emissions (Historical %)</th>
-            <th>Climate Impact Suffered</th>
-            <th>Jubilee Response</th>
-        </tr>
-        <tr>
-            <td><strong>Global North</strong></td>
-            <td>79%</td>
-            <td>Minimal</td>
-            <td>Climate finance, technology transfer</td>
-        </tr>
-        <tr>
-            <td><strong>Global South</strong></td>
-            <td>21%</td>
-            <td>Severe</td>
-            <td>Adaptation funding, debt relief</td>
-        </tr>
-        <tr>
-            <td><strong>Small Island States</strong></td>
-            <td>0.03%</td>
-            <td>Existential threat</td>
-            <td>Loss and damage compensation</td>
-        </tr>
-    </table>
-    
-    <h2>Concrete Jubilee Actions for Creation</h2>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">$100B</div>
-            <div class="stat-label">Annual Climate Finance<br>Promised by developed nations</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">1.5°C</div>
-            <div class="stat-label">Temperature Limit<br>Paris Agreement goal</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">30%</div>
-            <div class="stat-label">Land & Ocean<br>Conservation target by 2030</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">1B</div>
-            <div class="stat-label">Trees<br>Annual planting goal</div>
-        </div>
-    </div>
-    
-    <script>
-        const ctx10 = document.getElementById('climateChart').getContext('2d');
-        new Chart(ctx10, {
-            type: 'bar',
-            data: {
-                labels: ['CO2 Emissions', 'Deforestation', 'Species Extinction', 'Ocean Acidification', 'Plastic Pollution'],
-                datasets: [{
-                    label: 'Crisis Level (1-10 scale)',
-                    data: [9, 8, 9, 7, 8],
-                    backgroundColor: [
-                        'rgba(231, 76, 60, 0.8)',
-                        'rgba(230, 126, 34, 0.8)',
-                        'rgba(192, 57, 43, 0.8)',
-                        'rgba(41, 128, 185, 0.8)',
-                        'rgba(142, 68, 173, 0.8)'
-                    ],
-                    borderColor: '#fff',
-                    borderWidth: 2
-                }, {
-                    label: 'Jubilee Response Potential (1-10 scale)',
-                    data: [8, 9, 6, 7, 8],
-                    backgroundColor: [
-                        'rgba(46, 204, 113, 0.8)',
-                        'rgba(39, 174, 96, 0.8)',
-                        'rgba(22, 160, 133, 0.8)',
-                        'rgba(52, 152, 219, 0.8)',
-                        'rgba(155, 89, 182, 0.8)'
-                    ],
-                    borderColor: '#fff',
-                    borderWidth: 2
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Environmental Crises vs Jubilee Response Potential'
-                    }
-                },
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        max: 10
-                    }
-                }
-            }
-        });
-    </script>
-</div>
-
-<!-- Slide 18: Digital Age Applications -->
-<div class="slide">
-    <div class="slide-number">18/25</div>
-    <h1>Jubilee in the Digital Age: New Frontiers</h1>
-    
-    <h2>Digital Evangelization and Virtual Pilgrimages</h2>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">5.16B</div>
-            <div class="stat-label">Internet Users<br>Global digital reach</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">4.76B</div>
-            <div class="stat-label">Social Media Users<br>Evangelization platform</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">1000+</div>
-            <div class="stat-label">Virtual Holy Doors<br>Online Jubilee access</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">50M</div>
-            <div class="stat-label">Virtual Pilgrims<br>2025 projection</div>
-        </div>
-    </div>
-    
-    <h2>Digital Divide as Modern Inequality</h2>
-    <div class="chart-container">
-        <canvas id="digitalChart"></canvas>
-    </div>
-    
-    <h2>Jubilee Principles for Digital Justice</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <strong>Digital Liberation:</strong> Free internet access as human right, bridging digital divide
-        </div>
-        <div class="timeline-item">
-            <strong>Data Forgiveness:</strong> Right to be forgotten, digital redemption for past mistakes
-        </div>
-        <div class="timeline-item">
-            <strong>Algorithmic Justice:</strong> Transparent AI, preventing digital discrimination
-        </div>
-        <div class="timeline-item">
-            <strong>Cyber Sabbath:</strong> Digital rest, healthy technology relationships
-        </div>
-    </div>
-    
-    <h2>Vatican's Digital Initiatives</h2>
-    <table>
-        <tr>
-            <th>Initiative</th>
-            <th>Platform</th>
-            <th>Reach</th>
-            <th>Jubilee Application</th>
-        </tr>
-        <tr>
-            <td><strong>Pope's Twitter</strong></td>
-            <td>@Pontifex</td>
-            <td>18.9M followers</td>
-            <td>Daily messages of hope</td>
-        </tr>
-        <tr>
-            <td><strong>Vatican News</strong></td>
-            <td>Multi-platform</td>
-            <td>40+ languages</td>
-            <td>Global Jubilee coverage</td>
-        </tr>
-        <tr>
-            <td><strong>Click to Pray</strong></td>
-            <td>Mobile app</td>
-            <td>7M downloads</td>
-            <td>Digital prayer community</td>
-        </tr>
-        <tr>
-            <td><strong>Virtual Pilgrimages</strong></td>
-            <td>VR/AR technology</td>
-            <td>Unlimited access</td>
-            <td>Inclusive participation</td>
-        </tr>
-    </table>
-    
-    <h2>AI Ethics and Human Dignity</h2>
-    <div class="modern-application">
-        <strong>Jubilee Challenge:</strong> Ensuring artificial intelligence serves human flourishing rather than replacing human dignity. Pope Francis calls for AI development that promotes justice, reduces inequality, and respects the fundamental worth of every person.
-    </div>
-    
-    <script>
-        const ctx11 = document.getElementById('digitalChart').getContext('2d');
-        new Chart(ctx11, {
-            type: 'doughnut',
-            data: {
-                labels: ['Connected Population', 'Digital Divide Gap', 'Smartphone Access', 'Broadband Access'],
-                datasets: [{
-                    data: [64, 36, 68, 32],
-                    backgroundColor: [
-                        '#3498db',
-                        '#e74c3c',
-                        '#2ecc71',
-                        '#f39c12'
-                    ],
-                    borderColor: '#fff',
-                    borderWidth: 3
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Global Digital Access and Inequality (2025)'
-                    },
-                    legend: {
-                        position: 'bottom'
-                    }
-                }
-            }
-        });
-    </script>
-</div>
-
-<!-- Slide 19: Youth and the Future of Hope -->
-<div class="slide">
-    <div class="slide-number">19/25</div>
-    <h1>Youth and the Future of Hope</h1>
-    
-    <h2>Global Youth Challenges</h2>
-    <div class="chart-container">
-        <canvas id="youthChart"></canvas>
-    </div>
-    
-    <h2>Pope Francis's Vision for Young People</h2>
-    <div class="quote-box">
-        "Signs of hope are needed by those who are the very embodiment of hope, namely, the young. We must not disappoint them, for the future depends on their enthusiasm." - Pope Francis, Spes non confundit
-    </div>
-    
-    <h2>Youth Statistics and Challenges</h2>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">1.8B</div>
-            <div class="stat-label">Global Youth<br>Ages 10-24</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">73M</div>
-            <div class="stat-label">Unemployed Youth<br>Seeking opportunities</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">617M</div>
-            <div class="stat-label">Out of School<br>Children and adolescents</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">280M</div>
-            <div class="stat-label">Youth in Poverty<br>Living on <$2/day</div>
-        </div>
-    </div>
-    
-    <h2>Jubilee Responses to Youth Challenges</h2>
-    <table>
-        <tr>
-            <th>Challenge</th>
-            <th>Scale</th>
-            <th>Jubilee Principle</th>
-            <th>Concrete Action</th>
-        </tr>
-        <tr>
-            <td><strong>Youth Unemployment</strong></td>
-            <td>73M globally</td>
-            <td>Economic Liberation</td>
-            <td>Job training, entrepreneurship programs</td>
-        </tr>
-        <tr>
-            <td><strong>Educational Access</strong></td>
-            <td>617M out of school</td>
-            <td>Knowledge Freedom</td>
-            <td>Free education, digital literacy</td>
-        </tr>
-        <tr>
-            <td><strong>Mental Health Crisis</strong></td>
-            <td>1 in 4 affected</td>
-            <td>Healing & Restoration</td>
-            <td>Counseling, community support</td>
-        </tr>
-        <tr>
-            <td><strong>Climate Anxiety</strong></td>
-            <td>75% worried</td>
-            <td>Hope & Agency</td>
-            <td>Environmental action, future planning</td>
-        </tr>
-    </table>
-    
-    <h2>World Youth Day and Jubilee Connection</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <strong>Lisbon 2023:</strong> 1.5M young pilgrims, theme "Mary arose and went with haste"
-        </div>
-        <div class="timeline-item">
-            <strong>Seoul 2027:</strong> Next WYD, expected 2M participants, Asian youth focus
-        </div>
-        <div class="timeline-item">
-            <strong>Jubilee 2025:</strong> Special youth programs, digital engagement, hope emphasis
-        </div>
-        <div class="timeline-item">
-            <strong>Synod on Youth:</strong> Ongoing implementation of recommendations for youth ministry
-        </div>
-    </div>
-    
-    <script>
-        const ctx12 = document.getElementById('youthChart').getContext('2d');
-        new Chart(ctx12, {
-            type: 'bar',
-            data: {
-                labels: ['Unemployment Rate', 'Mental Health Issues', 'Climate Anxiety', 'Educational Barriers', 'Poverty Rate'],
-                datasets: [{
-                    label: 'Youth Challenge Severity (%)',
-                    data: [15, 25, 75, 34, 16],
-                    backgroundColor: [
-                        'rgba(231, 76, 60, 0.8)',
-                        'rgba(155, 89, 182, 0.8)',
-                        'rgba(230, 126, 34, 0.8)',
-                        'rgba(52, 152, 219, 0.8)',
-                        'rgba(192, 57, 43, 0.8)'
-                    ],
-                    borderColor: '#fff',
-                    borderWidth: 2
-                }, {
-                    label: 'Hope & Resilience Potential (%)',
-                    data: [85, 70, 60, 80, 75],
-                    backgroundColor: [
-                        'rgba(46, 204, 113, 0.8)',
-                        'rgba(39, 174, 96, 0.8)',
-                        'rgba(22, 160, 133, 0.8)',
-                        'rgba(26, 188, 156, 0.8)',
-                        'rgba(46, 204, 113, 0.8)'
-                    ],
-                    borderColor: '#fff',
-                    borderWidth: 2
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Youth Challenges vs Hope Potential (Global Statistics)'
-                    }
-                },
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        max: 100
-                    }
-                }
-            }
-        });
-    </script>
-</div>
-
-<!-- Slide 20: Interfaith and Ecumenical Dimensions -->
-<div class="slide">
-    <div class="slide-number">20/25</div>
-    <h1>Interfaith and Ecumenical Dimensions of Jubilee</h1>
-    
-    <h2>Council of Nicaea Anniversary (325-2025)</h2>
-    <div class="biblical-reference">
-        <strong>1700th Anniversary:</strong> The Jubilee 2025 coincides with the celebration of the first great Ecumenical Council of Nicaea, providing unique opportunity for Christian unity.
-    </div>
-    
-    <h2>Ecumenical Significance</h2>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">2.4B</div>
-            <div class="stat-label">Christians Worldwide<br>All denominations</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">45K</div>
-            <div class="stat-label">Christian Denominations<br>Unity challenge</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">1700</div>
-            <div class="stat-label">Years Since Nicaea<br>Foundational unity</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">1</div>
-            <div class="stat-label">Easter Date 2025<br>Common celebration</div>
-        </div>
-    </div>
-    
-    <h2>Interfaith Jubilee Principles</h2>
-    <div class="chart-container">
-        <canvas id="interfaithChart"></canvas>
-    </div>
-    
-    <h2>Shared Values Across Religions</h2>
-    <table>
-        <tr>
-            <th>Religion</th>
-            <th>Jubilee-like Concept</th>
-            <th>Key Principles</th>
-            <th>Collaboration Potential</th>
-        </tr>
-        <tr>
-            <td><strong>Judaism</strong></td>
-            <td>Yom Kippur, Sabbatical Year</td>
-            <td>Forgiveness, social justice, rest</td>
-            <td>Shared biblical heritage</td>
-        </tr>
-        <tr>
-            <td><strong>Islam</strong></td>
-            <td>Zakat, Hajj pilgrimage</td>
-            <td>Charity, equality, spiritual journey</td>
-            <td>Abrahamic tradition</td>
-        </tr>
-        <tr>
-            <td><strong>Buddhism</strong></td>
-            <td>Compassion, liberation</td>
-            <td>Freedom from suffering, mercy</td>
-            <td>Peace, non-violence</td>
-        </tr>
-        <tr>
-            <td><strong>Hinduism</strong></td>
-            <td>Kumbh Mela, dharma</td>
-            <td>Pilgrimage, righteousness, renewal</td>
-            <td>Spiritual transformation</td>
-        </tr>
-    </table>
-    
-    <h2>Pope Francis's Interfaith Initiatives</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <strong>Document on Human Fraternity (2019):</strong> Signed with Grand Imam of Al-Azhar, promoting peace and coexistence
-        </div>
-        <div class="timeline-item">
-            <strong>Interfaith Prayer for Peace:</strong> Regular gatherings with world religious leaders
-        </div>
-        <div class="timeline-item">
-            <strong>Laudato Si' Alliance:</strong> Multi-religious environmental collaboration
-        </div>
-        <div class="timeline-item">
-            <strong>Jubilee 2025 Invitation:</strong> Open dialogue with all faiths on hope and human dignity
-        </div>
-    </div>
-    
-    <h2>Common Easter 2025</h2>
-    <div class="modern-application">
-        <strong>Historic Opportunity:</strong> For the first time in many years, Eastern and Western Christianity will celebrate Easter on the same date in 2025 (April 20). Pope Francis sees this as a providential sign calling for decisive steps toward Christian unity.
-    </div>
-    
-    <script>
-        const ctx13 = document.getElementById('interfaithChart').getContext('2d');
-        new Chart(ctx13, {
-            type: 'radar',
-            data: {
-                labels: ['Peace & Non-violence', 'Care for Poor', 'Environmental Stewardship', 'Social Justice', 'Forgiveness & Mercy', 'Spiritual Pilgrimage'],
-                datasets: [{
-                    label: 'Christianity',
-                    data: [95, 100, 90, 95, 100, 95],
-                    backgroundColor: 'rgba(52, 152, 219, 0.2)',
-                    borderColor: '#3498db',
-                    borderWidth: 2
-                }, {
-                    label: 'Islam',
-                    data: [90, 95, 85, 90, 85, 100],
-                    backgroundColor: 'rgba(46, 204, 113, 0.2)',
-                    borderColor: '#2ecc71',
-                    borderWidth: 2
-                }, {
-                    label: 'Judaism',
-                    data: [85, 90, 80, 100, 95, 80],
-                    backgroundColor: 'rgba(155, 89, 182, 0.2)',
-                    borderColor: '#9b59b6',
-                    borderWidth: 2
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                scales: {
-                    r: {
-                        beginAtZero: true,
-                        max: 100
-                    }
-                },
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Shared Jubilee Values Across Abrahamic Faiths'
-                    }
-                }
-            }
-        });
-    </script>
-</div>
-
-
-<!-- Slide 21: Practical Implementation in Local Churches -->
-<div class="slide">
-    <div class="slide-number">21/25</div>
-    <h1>Practical Implementation in Local Churches</h1>
-    
-    <h2>Diocesan and Parish-Level Applications</h2>
-    <div class="chart-container">
-        <canvas id="implementationChart"></canvas>
-    </div>
-    
-    <h2>Concrete Jubilee Programs</h2>
-    <table>
-        <tr>
-            <th>Program Type</th>
-            <th>Target Population</th>
-            <th>Expected Participants</th>
-            <th>Measurable Outcomes</th>
-        </tr>
-        <tr>
-            <td><strong>Debt Relief Counseling</strong></td>
-            <td>Financially struggling families</td>
-            <td>50,000 households</td>
-            <td>$500M debt restructured</td>
-        </tr>
-        <tr>
-            <td><strong>Prison Ministry Expansion</strong></td>
-            <td>Incarcerated individuals</td>
-            <td>100,000 inmates</td>
-            <td>25% recidivism reduction</td>
-        </tr>
-        <tr>
-            <td><strong>Refugee Integration</strong></td>
-            <td>Displaced persons</td>
-            <td>250,000 refugees</td>
-            <td>80% employment rate</td>
-        </tr>
-        <tr>
-            <td><strong>Environmental Projects</strong></td>
-            <td>Local communities</td>
-            <td>1M volunteers</td>
-            <td>10M trees planted</td>
-        </tr>
-    </table>
-    
-    <h2>Sacramental Preparation and Celebration</h2>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">200K</div>
-            <div class="stat-label">Parishes Worldwide<br>Jubilee celebrations</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">50M</div>
-            <div class="stat-label">Confessions<br>Projected increase</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">1000</div>
-            <div class="stat-label">Holy Doors<br>Local dioceses</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">100M</div>
-            <div class="stat-label">Pilgrims<br>Local and international</div>
-        </div>
-    </stats-grid>
-    
-    <h2>Formation and Education Programs</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <strong>Clergy Formation:</strong> Special seminars on Jubilee theology and pastoral applications
-        </div>
-        <div class="timeline-item">
-            <strong>Lay Leadership:</strong> Training programs for parish coordinators and volunteers
-        </div>
-        <div class="timeline-item">
-            <strong>Youth Catechesis:</strong> Age-appropriate Jubilee education in schools and parishes
-        </div>
-        <div class="timeline-item">
-            <strong>Adult Faith Formation:</strong> Bible study groups focusing on Jubilee themes
-        </div>
-    </div>
-    
-    <h2>Measuring Success: Key Performance Indicators</h2>
-    <div class="four-rs">
-        <div class="principle-card" style="background: #3498db;">
-            <h4>PARTICIPATION</h4>
-            <p>25% increase in Mass attendance during Jubilee year</p>
-        </div>
-        <div class="principle-card" style="background: #3498db;">
-            <h4>RECONCILIATION</h4>
-            <p>300% increase in Sacrament of Reconciliation</p>
-        </div>
-        <div class="principle-card" style="background: #3498db;">
-            <h4>SERVICE</h4>
-            <p>50% increase in volunteer hours for charitable works</p>
-        </div>
-        <div class="principle-card" style="background: #3498db;">
-            <h4>CONVERSION</h4>
-            <p>20% increase in adult baptisms and confirmations</p>
-        </div>
-    </div>
-    
-    <script>
-        const ctx14 = document.getElementById('implementationChart').getContext('2d');
-        new Chart(ctx14, {
-            type: 'doughnut',
-            data: {
-                labels: ['Sacramental Life', 'Social Action', 'Formation & Education', 'Pilgrimage & Prayer', 'Interfaith Dialogue'],
-                datasets: [{
-                    data: [30, 25, 20, 15, 10],
-                    backgroundColor: [
-                        '#e74c3c',
-                        '#3498db',
-                        '#2ecc71',
-                        '#f39c12',
-                        '#9b59b6'
-                    ],
-                    borderColor: '#fff',
-                    borderWidth: 3
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Local Church Jubilee Implementation Focus Areas'
-                    },
-                    legend: {
-                        position: 'bottom'
-                    }
-                }
-            }
-        });
-    </script>
-</div>
-
-<!-- Slide 22: Economic and Social Impact Projections -->
-<div class="slide">
-    <div class="slide-number">22/25</div>
-    <h1>Economic and Social Impact Projections</h1>
-    
-    <h2>Global Economic Impact of Jubilee Principles</h2>
-    <div class="chart-container">
-        <canvas id="economicChart"></canvas>
-    </div>
-    
-    <h2>Quantified Impact Projections (2025-2030)</h2>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">$130B</div>
-            <div class="stat-label">Debt Relief<br>Developing nations</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">50M</div>
-            <div class="stat-label">Jobs Created<br>Green economy transition</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">2M</div>
-            <div class="stat-label">Prisoners Released<br>Amnesty programs</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">100M</div>
-            <div class="stat-label">People Lifted<br>Out of poverty</div>
-        </div>
-    </div>
-    
-    <h2>Sector-Specific Applications</h2>
-    <table>
-        <tr>
-            <th>Economic Sector</th>
-            <th>Jubilee Principle Applied</th>
-            <th>Projected Investment</th>
-            <th>Expected Outcome</th>
-        </tr>
-        <tr>
-            <td><strong>Healthcare</strong></td>
-            <td>Universal access</td>
-            <td>$500B globally</td>
-            <td>90% coverage in developing nations</td>
-        </tr>
-        <tr>
-            <td><strong>Education</strong></td>
-            <td>Free primary education</td>
-            <td>$300B annually</td>
-            <td>617M children in school</td>
-        </tr>
-        <tr>
-            <td><strong>Housing</strong></td>
-            <td>Affordable housing</td>
-            <td>$200B investment</td>
-            <td>50M new homes built</td>
-        </tr>
-        <tr>
-            <td><strong>Agriculture</strong></td>
-            <td>Land redistribution</td>
-            <td>$100B support</td>
-            <td>Food security for 1B people</td>
-        </tr>
-    </table>
-    
-    <h2>Social Return on Investment (SROI)</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <strong>Education Investment:</strong> Every $1 invested returns $5 in economic growth
-        </div>
-        <div class="timeline-item">
-            <strong>Healthcare Access:</strong> Every $1 invested saves $4 in emergency care costs
-        </div>
-        <div class="timeline-item">
-            <strong>Prison Reform:</strong> Every $1 invested saves $7 in recidivism costs
-        </div>
-        <div class="timeline-item">
-            <strong>Environmental Protection:</strong> Every $1 invested saves $10 in climate damage
-        </div>
-    </div>
-    
-    <h2>Challenges and Risk Mitigation</h2>
-    <div class="modern-application">
-        <strong>Implementation Challenges:</strong> Political resistance, economic disruption, cultural barriers, and resource constraints. Mitigation strategies include gradual implementation, stakeholder engagement, international cooperation, and faith-based advocacy.
-    </div>
-    
-    <script>
-        const ctx15 = document.getElementById('economicChart').getContext('2d');
-        new Chart(ctx15, {
-            type: 'line',
-            data: {
-                labels: ['2025', '2026', '2027', '2028', '2029', '2030'],
-                datasets: [{
-                    label: 'Cumulative Debt Relief ($B)',
-                    data: [20, 45, 70, 95, 115, 130],
-                    borderColor: '#e74c3c',
-                    backgroundColor: 'rgba(231, 76, 60, 0.1)',
-                    borderWidth: 3,
-                    fill: true
-                }, {
-                    label: 'People Lifted from Poverty (Millions)',
-                    data: [10, 25, 45, 65, 80, 100],
-                    borderColor: '#2ecc71',
-                    backgroundColor: 'rgba(46, 204, 113, 0.1)',
-                    borderWidth: 3,
-                    fill: true
-                }, {
-                    label: 'Green Jobs Created (Millions)',
-                    data: [5, 12, 22, 32, 42, 50],
-                    borderColor: '#3498db',
-                    backgroundColor: 'rgba(52, 152, 219, 0.1)',
-                    borderWidth: 3,
-                    fill: true
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Projected Cumulative Impact of Jubilee Principles (2025-2030)'
-                    }
-                },
-                scales: {
-                    y: {
-                        beginAtZero: true
-                    }
-                }
-            }
-        });
-    </script>
-</div>
-
-<!-- Slide 23: Personal Conversion and Spiritual Renewal -->
-<div class="slide">
-    <div class="slide-number">23/25</div>
-    <h1>Personal Conversion: The Heart of Jubilee</h1>
-    
-    <h2>The Primacy of Interior Transformation</h2>
-    <div class="quote-box">
-        "Without this interior freedom, external reforms, however well-intentioned, will ultimately fall short. The dynamism of Jubilee is a reciprocal process: God's grace initiates and sustains personal conversion."
-    </div>
-    
-    <h2>Stages of Jubilee Conversion</h2>
-    <div class="chart-container">
-        <canvas id="conversionChart"></canvas>
-    </div>
-    
-    <h2>Sacramental Journey of Renewal</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <strong>Examination of Conscience:</strong> Honest assessment of personal and communal failings
-        </div>
-        <div class="timeline-item">
-            <strong>Sacrament of Reconciliation:</strong> Confession, absolution, and spiritual healing
-        </div>
-        <div class="timeline-item">
-            <strong>Eucharistic Renewal:</strong> Deeper participation in Mass and communion
-        </div>
-        <div class="timeline-item">
-            <strong>Commitment to Service:</strong> Concrete acts of mercy and justice
-        </div>
-    </div>
-    
-    <h2>Theological Virtues in Practice</h2>
-    <table>
-        <tr>
-            <th>Virtue</th>
-            <th>Definition</th>
-            <th>Jubilee Expression</th>
-            <th>Daily Practice</th>
-        </tr>
-        <tr>
-            <td><strong>Faith</strong></td>
-            <td>Trust in God's promises</td>
-            <td>Belief in God's mercy and justice</td>
-            <td>Daily prayer, Scripture reading</td>
-        </tr>
-        <tr>
-            <td><strong>Hope</strong></td>
-            <td>Confident expectation</td>
-            <td>Trust in ultimate redemption</td>
-            <td>Perseverance in trials, future orientation</td>
-        </tr>
-        <tr>
-            <td><strong>Charity</strong></td>
-            <td>Love of God and neighbor</td>
-            <td>Concrete acts of mercy</td>
-            <td>Service to poor, forgiveness of enemies</td>
-        </tr>
-    </table>
-    
-    <h2>Obstacles to Conversion</h2>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">67%</div>
-            <div class="stat-label">Materialism<br>Attachment to possessions</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">54%</div>
-            <div class="stat-label">Individualism<br>Self-centered lifestyle</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">43%</div>
-            <div class="stat-label">Spiritual Apathy<br>Lack of religious practice</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">38%</div>
-            <div class="stat-label">Unforgiveness<br>Holding grudges</div>
-        </div>
-    </div>
-    
-    <h2>Fruits of Authentic Conversion</h2>
-    <div class="four-rs">
-        <div class="principle-card" style="background: #8e44ad;">
-            <h4>PEACE</h4>
-            <p>Interior tranquility and reconciliation with God</p>
-        </div>
-        <div class="principle-card" style="background: #8e44ad;">
-            <h4>JOY</h4>
-            <p>Deep happiness rooted in God's love and mercy</p>
-        </div>
-        <div class="principle-card" style="background: #8e44ad;">
-            <h4>COMPASSION</h4>
-            <p>Active concern for suffering of others</p>
-        </div>
-        <div class="principle-card" style="background: #8e44ad;">
-            <h4>MISSION</h4>
-            <p>Commitment to evangelization and service</p>
-        </div>
-    </div>
-    
-    <script>
-        const ctx16 = document.getElementById('conversionChart').getContext('2d');
-        new Chart(ctx16, {
-            type: 'radar',
-            data: {
-                labels: ['Self-Awareness', 'Repentance', 'Forgiveness', 'Renewal', 'Mission', 'Perseverance'],
-                datasets: [{
-                    label: 'Conversion Journey Progress',
-                    data: [90, 85, 80, 75, 70, 85],
-                    backgroundColor: 'rgba(142, 68, 173, 0.2)',
-                    borderColor: '#8e44ad',
-                    borderWidth: 3,
-                    pointBackgroundColor: '#8e44ad',
-                    pointBorderColor: '#fff',
-                    pointHoverBackgroundColor: '#fff',
-                    pointHoverBorderColor: '#8e44ad'
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                scales: {
-                    r: {
-                        beginAtZero: true,
-                        max: 100
-                    }
-                },
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Stages of Personal Jubilee Conversion (%)'
-                    }
-                }
-            }
-        });
-    </script>
-</div>
-
-<!-- Slide 24: Future Implications and Ongoing Purpose -->
-<div class="slide">
-    <div class="slide-number">24/25</div>
-    <h1>Future Implications and Ongoing Purpose</h1>
-    
-    <h2>Beyond 2025: Sustaining the Jubilee Spirit</h2>
-    <div class="chart-container">
-        <canvas id="futureChart"></canvas>
-    </div>
-    
-    <h2>Long-term Structural Changes</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <strong>Institutional Reform:</strong> Permanent changes in Church structures to prioritize mercy and inclusion
-        </div>
-        <div class="timeline-item">
-            <strong>Social Policy Integration:</strong> Jubilee principles embedded in national and international policies
-        </div>
-        <div class="timeline-item">
-            <strong>Educational Curriculum:</strong> Jubilee theology integrated into seminary and university programs
-        </div>
-        <div class="timeline-item">
-            <strong>Cultural Transformation:</strong> Shift from consumerism to stewardship, individualism to solidarity
-        </div>
-    </div>
-    
-    <h2>Next Generation Leadership</h2>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">50K</div>
-            <div class="stat-label">Young Leaders<br>Trained in Jubilee principles</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">1000</div>
-            <div class="stat-label">New Parishes<br>Founded on Jubilee model</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">100</div>
-            <div class="stat-label">Countries<br>Implementing Jubilee policies</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">2050</div>
-            <div class="stat-label">Target Year<br>For sustainable development</div>
-        </div>
-    </div>
-    
-    <h2>Measuring Long-term Success</h2>
-    <table>
-        <tr>
-            <th>Indicator</th>
-            <th>2025 Baseline</th>
-            <th>2030 Target</th>
-            <th>2050 Vision</th>
-        </tr>
-        <tr>
-            <td><strong>Global Poverty Rate</strong></td>
-            <td>9.2%</td>
-            <td>3%</td>
-            <td>0%</td>
-        </tr>
-        <tr>
-            <td><strong>Carbon Emissions</strong></td>
-            <td>36.8 Gt CO2</td>
-            <td>25 Gt CO2</td>
-            <td>Net Zero</td>
-        </tr>
-        <tr>
-            <td><strong>Religious Practice</strong></td>
-            <td>84% global</td>
-            <td>87% global</td>
-            <td>90% global</td>
-        </tr>
-        <tr>
-            <td><strong>Social Cohesion Index</strong></td>
-            <td>6.2/10</td>
-            <td>7.5/10</td>
-            <td>9.0/10</td>
-        </tr>
-    </table>
-    
-    <h2>Challenges and Opportunities</h2>
-    <div class="modern-application">
-        <strong>Key Challenges:</strong> Secularization trends, political polarization, economic inequality, climate change acceleration. <strong>Opportunities:</strong> Digital evangelization, youth engagement, interfaith cooperation, global solidarity movements.
-    </div>
-    
-    <h2>The Ongoing Dynamism</h2>
-    <div class="quote-box">
-        "The enduring power of the Jubilee lies in its capacity to inspire both profound spiritual renewal and courageous social action, continually pointing towards the full realization of God's kingdom of justice, peace, and hope."
-    </div>
-    
-    <script>
-        const ctx17 = document.getElementById('futureChart').getContext('2d');
-        new Chart(ctx17, {
-            type: 'line',
-            data: {
-                labels: ['2025', '2030', '2035', '2040', '2045', '2050'],
-                datasets: [{
-                    label: 'Spiritual Renewal Index',
-                    data: [65, 72, 78, 83, 87, 90],
-                    borderColor: '#9b59b6',
-                    backgroundColor: 'rgba(155, 89, 182, 0.1)',
-                    borderWidth: 3,
-                    fill: true
-                }, {
-                    label: 'Social Justice Implementation',
-                    data: [60, 70, 78, 85, 90, 95],
-                    borderColor: '#e74c3c',
-                    backgroundColor: 'rgba(231, 76, 60, 0.1)',
-                    borderWidth: 3,
-                    fill: true
-                }, {
-                    label: 'Environmental Restoration',
-                    data: [55, 65, 75, 82, 88, 92],
-                    borderColor: '#2ecc71',
-                    backgroundColor: 'rgba(46, 204, 113, 0.1)',
-                    borderWidth: 3,
-                    fill: true
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'Long-term Jubilee Impact Projections (2025-2050)'
-                    }
-                },
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        max: 100,
-                        title: {
-                            display: true,
-                            text: 'Implementation Success (%)'
-                        }
-                    }
-                }
-            }
-        });
-    </script>
-</div>
-
-<!-- Slide 25: Conclusion - The Enduring Dynamism of Jubilee -->
-<div class="slide">
-    <div class="slide-number">25/25</div>
-    <h1>Conclusion: The Enduring Dynamism of Jubilee</h1>
-    
-    <h2>From Ancient Roots to Eternal Hope</h2>
-    <div class="chart-container">
-        <canvas id="conclusionChart"></canvas>
-    </div>
-    
-    <h2>The Theological Thread</h2>
-    <div class="quote-box">
-        "The dynamism of Jubilee reveals a consistent theological thread: God's unwavering commitment to justice, liberation, and renewal for all creation. What began as a legislative framework evolved into a prophetic vision, was fulfilled in Christ, and continues through the Holy Spirit."
-    </div>
-    
-    <h2>Key Takeaways</h2>
-    <div class="four-rs">
-        <div class="principle-card" style="background: #34495e;">
-            <h4>RADICAL PRINCIPLE</h4>
-            <p>Jubilee challenges prevailing norms and calls for constant re-evaluation of societal structures</p>
-        </div>
-        <div class="principle-card" style="background: #34495e;">
-            <h4>PERSONAL CONVERSION</h4>
-            <p>True prosperity measured by equitable distribution, not accumulation</p>
-        </div>
-        <div class="principle-card" style="background: #34495e;">
-            <h4>DIVINE HOPE</h4>
-            <p>Hope grounded in God's promises and made tangible through concrete acts of mercy</p>
-        </div>
-        <div class="principle-card" style="background: #34495e;">
-            <h4>PERPETUAL CALL</h4>
-            <p>Constant invitation to return to God's original design for humanity and creation</p>
-        </div>
-    </div>
-    
-    <h2>The Call to Action</h2>
-    <div class="timeline">
-        <div class="timeline-item">
-            <strong>Individual Level:</strong> Personal spiritual renewal, sacramental life, works of mercy
-        </div>
-        <div class="timeline-item">
-            <strong>Community Level:</strong> Parish programs, social action, environmental stewardship
-        </div>
-        <div class="timeline-item">
-            <strong>National Level:</strong> Policy advocacy, debt relief, prison reform, climate action
-        </div>
-        <div class="timeline-item">
-            <strong>Global Level:</strong> International cooperation, interfaith dialogue, sustainable development
-        </div>
-    </div>
-    
-    <h2>Final Statistics: The Jubilee Legacy</h2>
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-number">3500</div>
-            <div class="stat-label">Years<br>From Moses to Francis</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">725</div>
-            <div class="stat-label">Years<br>Papal Jubilee tradition</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">2.4B</div>
-            <div class="stat-label">Christians<br>Called to be pilgrims of hope</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-number">∞</div>
-            <div class="stat-label">God's Mercy<br>The ultimate Jubilee</div>
-        </div>
-    </div>
-    
-    <h2>The Invitation</h2>
-    <div class="modern-application">
-        <strong>Pope Francis's Call:</strong> "The Jubilee invites every individual to embark on a spiritual pilgrimage, to open their hearts to reconciliation, and to become active agents of God's transformative love in their families, communities, and the wider world."
-    </div>
-    
-    <div class="biblical-reference">
-        <strong>Romans 5:5:</strong> "Hope does not disappoint, because God's love has been poured into our hearts through the Holy Spirit that has been given to us."
-    </div>
-    
-    <script>
-        const ctx18 = document.getElementById('conclusionChart').getContext('2d');
-        new Chart(ctx18, {
-            type: 'doughnut',
-            data: {
-                labels: ['Spiritual Renewal', 'Social Justice', 'Environmental Care', 'Economic Liberation', 'Interfaith Dialogue'],
-                datasets: [{
-                    data: [25, 25, 20, 20, 10],
-                    backgroundColor: [
-                        '#9b59b6',
-                        '#e74c3c',
-                        '#2ecc71',
-                        '#3498db',
-                        '#f39c12'
-                    ],
-                    borderColor: '#fff',
-                    borderWidth: 4
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    title: {
-                        display: true,
-                        text: 'The Integrated Vision of Jubilee 2025'
-                    },
-                    legend: {
-                        position: 'bottom'
-                    }
-                }
-            }
-        });
-    </script>
-    
-    <div style="text-align: center; margin-top: 40px; font-size: 1.2em; color: #2c3e50;">
-        <p><strong>Spes non confundit</strong></p>
-        <p><em>Hope does not disappoint</em></p>
-        <p>Jubilee Year 2025: A Journey of Hope and Transformation</p>
-    </div>
-</div>
-
+function go(id){
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  const m={hero:'screen-hero',ov:'scr-ov',det:'scr-det'};
+  const el=document.getElementById(m[id]);
+  if(el){el.classList.add('active');window.scrollTo({top:0,behavior:'smooth'});}
+  if(id==='ov')buildGrid();
+  document.querySelectorAll('.nbts .nb').forEach(b=>b.classList.remove('act'));
+  if(id==='ov')document.querySelector('.nbts .nb').classList.add('act');
+}
+function buildGrid(){
+  const g=document.getElementById('sgrid');
+  if(g.dataset.d)return;g.dataset.d='1';
+  S.forEach(s=>{
+    const d=document.createElement('div');
+    d.className='scard rev';d.onclick=()=>showDet(s.id);
+    const tags=s.tags.map(t=>`<span style="font-family:var(--fu);font-size:.6rem;font-weight:700;padding:.16rem .5rem;border-radius:20px;background:${s.pl};color:${s.c}">${t}</span>`).join('');
+    d.innerHTML=`<div class="sc-hd" data-n="${s.num}" style="background:linear-gradient(135deg,${s.c},${s.dk})"><div class="sc-num">Session ${s.num}</div><span class="sc-icon">${s.icon}</span><div class="sc-nm">${s.nm}</div><div class="sc-sb">${s.sb}</div></div><div class="sc-bd"><div style="display:flex;flex-wrap:wrap;gap:.32rem;margin-bottom:.65rem">${tags}</div><p>${s.prev}</p></div><div class="sc-ft" style="background:${s.c}"><span>Session ${s.num} / ${S.length}</span><span>Open →</span></div>`;
+    g.appendChild(d);
+  });
+  setTimeout(()=>{const ob=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('vis');ob.unobserve(x.target);}});},{threshold:.08});document.querySelectorAll('#sgrid .rev').forEach(el=>ob.observe(el));},100);
+}
+function showDet(id){
+  const s=S.find(x=>x.id===id);if(!s)return;
+  let body='';
+  s.ct.forEach(b=>{
+    if(b.t==='prose')body+=`<div class="dsec"><div class="dlbl">${b.l}</div><div class="prose">${b.tx}</div></div>`;
+    else if(b.t==='verse')body+=`<div class="verse"><span class="verse-lbl">📖 Scripture — ${b.label}</span><p class="verse-text">${b.tx}</p><p class="verse-ref">${b.ref}</p></div>`;
+    else if(b.t==='india')body+=`<div class="dsec"><div class="india"><div class="india-hd">🪔 Indian Context — Maharashtra · Vidarbha · Khamgaon</div><div class="india-body">${b.tx}</div></div></div>`;
+    else if(b.t==='challenge')body+=`<div class="dsec"><div class="challenge"><div class="ch-hd">⚠️ Challenge for Priests and Religious in India</div><div class="ch-body">${b.tx}</div></div></div>`;
+    else if(b.t==='practical')body+=`<div class="dsec"><div class="practical"><div class="pr-hd">✅ Practical Application</div><div class="pr-body">${b.tx}</div></div></div>`;
+    else if(b.t==='cards'){let c=`<div class="dsec"><div class="dlbl">${b.l}</div><div class="cards">`;b.items.forEach(i=>{c+=`<div class="card rev"><div class="card-ic">${i.ic}</div><div class="card-ti">${i.ti}</div><div class="card-bd">${i.b}</div></div>`;});c+='</div></div>';body+=c;}
+    else if(b.t==='steps'){let c=`<div class="dsec"><div class="dlbl">${b.l}</div><div class="steps">`;b.items.forEach(i=>{c+=`<div class="step rev"><div class="step-n">${i.n}</div><div><div class="step-ti">${i.ti}</div><div class="step-bd">${i.bd}</div></div></div>`;});c+='</div></div>';body+=c;}
+    else if(b.t==='tl'){let c=`<div class="dsec"><div class="dlbl">${b.l}</div><div class="tl">`;b.items.forEach(i=>{c+=`<div class="tl-item"><div class="tl-dot"></div><div class="tl-date">${i.d}</div><div class="tl-text">${i.tx}</div></div>`;});c+='</div></div>';body+=c;}
+    else if(b.t==='warn')body+=`<div class="warn"><strong>⚡ Note</strong>${b.tx}</div>`;
+  });
+  const idx=S.indexOf(s),nxt=idx<S.length-1?S[idx+1]:null,prv=idx>0?S[idx-1]:null;
+  const tags=s.tags.map(t=>`<span class="badge">${t}</span>`).join('');
+  document.getElementById('dcont').innerHTML=`<div class="d-hd" data-n="${s.num}" style="background:linear-gradient(135deg,${s.c},${s.dk})"><div class="d-top"><div><div class="d-num">Session ${s.num} of ${S.length}</div><h1 class="d-nm">${s.nm}</h1><p class="d-sb">${s.sb}</p><div class="dbadges">${tags}</div></div><div class="d-ic">${s.icon}</div></div></div><div class="db" style="--cc:${s.c};--ccp:${s.pl}"><div class="dsec"><div class="prose" style="border-left-color:${s.c};font-style:italic">${s.prev}</div></div>${body}<div class="d-nav"><button class="nb no" style="border-color:${s.c};color:${s.c}" onclick="go('ov')">← All Sessions</button>${prv?`<button class="nb no" style="border-color:${prv.c};color:${prv.c}" onclick="showDet('${prv.id}')">← ${prv.num}: ${prv.nm}</button>`:''} ${nxt?`<button class="nb no" style="border-color:${nxt.c};color:${nxt.c}" onclick="showDet('${nxt.id}')">${nxt.num}: ${nxt.nm} →</button>`:''}</div></div>`;
+  go('det');
+  setTimeout(()=>{const ob=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('vis');ob.unobserve(x.target);}});},{threshold:.06});document.querySelectorAll('#dcont .rev').forEach(el=>ob.observe(el));},120);
+}
+document.addEventListener('DOMContentLoaded',()=>{const ob=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('vis');ob.unobserve(x.target);}});},{threshold:.08});document.querySelectorAll('.rev').forEach(el=>ob.observe(el));});
+</script>
 </body>
 </html>
-
